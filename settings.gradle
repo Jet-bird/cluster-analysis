@@ -1,0 +1,5 @@
+rootProject.name = 'cluster-analysis'
+include 'cluster-analysis-common'
+include 'cluster-analysis-worker'
+include 'cluster-analysis-topology'
+

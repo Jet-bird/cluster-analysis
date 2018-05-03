@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Jetbird.cluster-analysis.iml" filepath="$PROJECT_DIR$/.idea/modules/Jetbird.cluster-analysis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cluster-analysis-common/Jetbird.cluster-analysis-common.iml" filepath="$PROJECT_DIR$/.idea/modules/cluster-analysis-common/Jetbird.cluster-analysis-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cluster-analysis-common/Jetbird.cluster-analysis-common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/cluster-analysis-common/Jetbird.cluster-analysis-common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cluster-analysis-common/Jetbird.cluster-analysis-common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/cluster-analysis-common/Jetbird.cluster-analysis-common.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cluster-analysis-topology/Jetbird.cluster-analysis-topology.iml" filepath="$PROJECT_DIR$/.idea/modules/cluster-analysis-topology/Jetbird.cluster-analysis-topology.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cluster-analysis-topology/Jetbird.cluster-analysis-topology.main.iml" filepath="$PROJECT_DIR$/.idea/modules/cluster-analysis-topology/Jetbird.cluster-analysis-topology.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cluster-analysis-topology/Jetbird.cluster-analysis-topology.test.iml" filepath="$PROJECT_DIR$/.idea/modules/cluster-analysis-topology/Jetbird.cluster-analysis-topology.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cluster-analysis-worker/Jetbird.cluster-analysis-worker.iml" filepath="$PROJECT_DIR$/.idea/modules/cluster-analysis-worker/Jetbird.cluster-analysis-worker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cluster-analysis-worker/Jetbird.cluster-analysis-worker.main.iml" filepath="$PROJECT_DIR$/.idea/modules/cluster-analysis-worker/Jetbird.cluster-analysis-worker.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cluster-analysis-worker/Jetbird.cluster-analysis-worker.test.iml" filepath="$PROJECT_DIR$/.idea/modules/cluster-analysis-worker/Jetbird.cluster-analysis-worker.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Jetbird.cluster-analysis.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Jetbird.cluster-analysis.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Jetbird.cluster-analysis.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Jetbird.cluster-analysis.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cluster-analysis-common.iml" filepath="$PROJECT_DIR$/.idea/modules/cluster-analysis-common.iml" />
+    </modules>
+  </component>
+</project>

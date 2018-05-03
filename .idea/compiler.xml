@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="Jetbird.cluster-analysis-common.main" target="1.8" />
+      <module name="Jetbird.cluster-analysis-common.test" target="1.8" />
+      <module name="Jetbird.cluster-analysis-topology.main" target="1.8" />
+      <module name="Jetbird.cluster-analysis-topology.test" target="1.8" />
+      <module name="Jetbird.cluster-analysis-worker.main" target="1.8" />
+      <module name="Jetbird.cluster-analysis-worker.test" target="1.8" />
+      <module name="Jetbird.cluster-analysis.main" target="1.8" />
+      <module name="Jetbird.cluster-analysis.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
