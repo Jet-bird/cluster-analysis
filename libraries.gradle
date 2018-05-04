@@ -1,0 +1,39 @@
+ext{
+   springVsersion           = '5.0.5.RELEASE'
+   springBootVersion        = '2.0.1.RELEASE'
+   springKafkaVersion       = '2.1.5.RELEASE'
+   springWebFlow            = '2.5.0.RELEASE'
+
+   junitPlatformVersion     = '1.1.0'
+   junitJupiterVersion      = '5.1.0'
+
+   log4jVersion             = '2.11.0'
+
+   stormVersion             = '1.2.1'
+
+   fastJsonVersion          = '1.2.47'
+
+   apiguardianVersion       = '1.0.0'
+
+   supportDependencies =[
+           springFramework         : "org.springframework:spring-context:${springVsersion}",
+           springKafka             : "org.springframework.kafka:spring-kafka:${springKafkaVersion}",
+           springBoot              : "org.springframework.boot:spring-boot-starter-web:${springBootVersion}",
+           fastJson                : "com.alibaba:fastjson:${fastJsonVersion}",
+           storm                   : "org.apache.storm:storm-core:${stormVersion}",
+           log4j_api               : "org.apache.logging.log4j:log4j-api:${log4jVersion}",
+           log4j_core              : "org.apache.logging.log4j:log4j-core:${log4jVersion}",
+           junit_platform_common   : "org.junit.platform:junit-platform-commons:${junitPlatformVersion}",
+           junit_platform_console  : "org.junit.platform:junit-platform-console:${junitPlatformVersion}",
+           junit_platform_engine   : "org.junit.platform:junit-platform-engine:${junitPlatformVersion}",
+           junit_platform_launcher : "org.junit.platform:junit-platform-launcher:${junitPlatformVersion}",
+           junit_platform_runner   : "org.junit.platform:junit-platform-runner:${junitPlatformVersion}",
+           junit_jupiter_api       : "org.junit.jupiter:junit-jupiter-api:${junitJupiterVersion}",
+           junit_jupiter_params    : "org.junit.jupiter:junit-jupiter-params:${junitJupiterVersion}",
+           apiguardian             : "org.apiguardian:apiguardian-api:${apiguardianVersion}",
+           opentest4j              : "org.opentest4j:opentest4j:${apiguardianVersion}"
+
+   ]
+}
+
+

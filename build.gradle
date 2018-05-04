@@ -1,14 +1,64 @@
-group 'Jetbird'
-version '1.0-SNAPSHOT'
+apply from: 'libraries.gradle'
+def libraries = rootProject.ext.supportDependencies
 
-apply plugin: 'java'
+subprojects {
+    apply plugin: 'java'
+    sourceCompatibility = 1.8
 
-sourceCompatibility = 1.8
+    repositories {
+        maven { url = "http://maven.aliyun.com/nexus/content/groups/public/" }
+        mavenCentral()
+    }
 
-repositories {
-    mavenCentral()
+    dependencies {
+        testCompile group: 'junit', name: 'junit', version: '4.12'
+    }
 }
 
-dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+project(':cluster-analysis-common') {
+    dependencies{
+        compile libraries.fastJson
+    }
 }
+
+
+project(':cluster-analysis-topology') {
+    dependencies {
+        compile project(':cluster-analysis-common')
+        compile libraries.springFramework
+        compile libraries.springBoot
+//        compile libraries.storm
+        compile libraries.log4j_api
+        compile libraries.log4j_core
+        compile libraries.junit_platform_common
+        compile libraries.junit_platform_console
+        compile libraries.junit_platform_engine
+        compile libraries.junit_platform_launcher
+        compile libraries.junit_platform_runner
+        compile libraries.junit_jupiter_api
+        compile libraries.junit_jupiter_params
+        compile libraries.apiguardian
+        compile libraries.opentest4j
+    }
+}
+
+project(':cluster-analysis-worker') {
+    dependencies{
+        compile project(':cluster-analysis-topology')
+    }
+}
+
+project(':cluster-analysis-webapp') {
+    apply plugin: 'war'
+
+    dependencies{
+        compile project(':cluster-analysis-topology')
+    }
+}
+
+
+
+
+
+

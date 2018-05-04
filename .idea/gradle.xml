@@ -10,6 +10,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/cluster-analysis-common" />
             <option value="$PROJECT_DIR$/cluster-analysis-topology" />
+            <option value="$PROJECT_DIR$/cluster-analysis-webapp" />
             <option value="$PROJECT_DIR$/cluster-analysis-worker" />
           </set>
         </option>
