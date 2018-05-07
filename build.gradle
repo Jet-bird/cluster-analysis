@@ -1,12 +1,29 @@
 apply from: 'libraries.gradle'
+apply plugin: 'idea'
+
 def libraries = rootProject.ext.supportDependencies
+
+buildscript {
+    repositories {
+        maven { url = "http://maven.aliyun.com/nexus/content/groups/public/" }
+        jcenter()
+        google()
+        mavenCentral()
+    }
+    dependencies {
+
+    }
+}
 
 subprojects {
     apply plugin: 'java'
-    sourceCompatibility = 1.8
+    apply plugin: 'idea'
 
+    sourceCompatibility = 1.8
     repositories {
         maven { url = "http://maven.aliyun.com/nexus/content/groups/public/" }
+        google()
+        jcenter()
         mavenCentral()
     }
 
@@ -16,46 +33,49 @@ subprojects {
 }
 
 
-project(':cluster-analysis-common') {
-    dependencies{
-        compile libraries.fastJson
+
+    project(':cluster-analysis-common') {
+        dependencies{
+            //storm包引入不完整，手动下载
+//        compile libraries.storm_core
+            compile libraries.fastJson
+        }
     }
-}
 
 
-project(':cluster-analysis-topology') {
-    dependencies {
-        compile project(':cluster-analysis-common')
-        compile libraries.springFramework
-        compile libraries.springBoot
-//        compile libraries.storm
-        compile libraries.log4j_api
-        compile libraries.log4j_core
-        compile libraries.junit_platform_common
-        compile libraries.junit_platform_console
-        compile libraries.junit_platform_engine
-        compile libraries.junit_platform_launcher
-        compile libraries.junit_platform_runner
-        compile libraries.junit_jupiter_api
-        compile libraries.junit_jupiter_params
-        compile libraries.apiguardian
-        compile libraries.opentest4j
+    project(':cluster-analysis-topology') {
+        dependencies {
+            compile project(':cluster-analysis-common')
+            compile libraries.springFramework
+            compile libraries.springBoot
+            compile libraries.log4j_api
+            compile libraries.log4j_core
+            compile libraries.junit_platform_common
+            compile libraries.junit_platform_console
+            compile libraries.junit_platform_engine
+            compile libraries.junit_platform_launcher
+            compile libraries.junit_platform_runner
+            compile libraries.junit_jupiter_api
+            compile libraries.junit_jupiter_params
+            compile libraries.apiguardian
+            compile libraries.opentest4j
+        }
     }
-}
 
-project(':cluster-analysis-worker') {
-    dependencies{
-        compile project(':cluster-analysis-topology')
+    project(':cluster-analysis-worker') {
+        dependencies{
+            compile project(':cluster-analysis-topology')
+        }
     }
-}
 
-project(':cluster-analysis-webapp') {
-    apply plugin: 'war'
+    project(':cluster-analysis-webapp') {
+        apply plugin: 'war'
 
-    dependencies{
-        compile project(':cluster-analysis-topology')
+        dependencies{
+            compile project(':cluster-analysis-topology')
+        }
     }
-}
+
 
 
 

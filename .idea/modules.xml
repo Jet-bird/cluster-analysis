@@ -2,22 +2,19 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/'Jetbird'.cluster-analysis.iml" filepath="$PROJECT_DIR$/.idea/modules/'Jetbird'.cluster-analysis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cluster-analysis-common/'Jetbird'.cluster-analysis-common.iml" filepath="$PROJECT_DIR$/.idea/modules/cluster-analysis-common/'Jetbird'.cluster-analysis-common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cluster-analysis-common/'Jetbird'.cluster-analysis-common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/cluster-analysis-common/'Jetbird'.cluster-analysis-common.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cluster-analysis-common/'Jetbird'.cluster-analysis-common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/cluster-analysis-common/'Jetbird'.cluster-analysis-common.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cluster-analysis-topology/'Jetbird'.cluster-analysis-topology.iml" filepath="$PROJECT_DIR$/.idea/modules/cluster-analysis-topology/'Jetbird'.cluster-analysis-topology.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cluster-analysis-topology/'Jetbird'.cluster-analysis-topology.main.iml" filepath="$PROJECT_DIR$/.idea/modules/cluster-analysis-topology/'Jetbird'.cluster-analysis-topology.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cluster-analysis-topology/'Jetbird'.cluster-analysis-topology.test.iml" filepath="$PROJECT_DIR$/.idea/modules/cluster-analysis-topology/'Jetbird'.cluster-analysis-topology.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cluster-analysis-webapp/'Jetbird'.cluster-analysis-webapp.iml" filepath="$PROJECT_DIR$/.idea/modules/cluster-analysis-webapp/'Jetbird'.cluster-analysis-webapp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cluster-analysis-webapp/'Jetbird'.cluster-analysis-webapp.main.iml" filepath="$PROJECT_DIR$/.idea/modules/cluster-analysis-webapp/'Jetbird'.cluster-analysis-webapp.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cluster-analysis-webapp/'Jetbird'.cluster-analysis-webapp.test.iml" filepath="$PROJECT_DIR$/.idea/modules/cluster-analysis-webapp/'Jetbird'.cluster-analysis-webapp.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cluster-analysis-worker/'Jetbird'.cluster-analysis-worker.iml" filepath="$PROJECT_DIR$/.idea/modules/cluster-analysis-worker/'Jetbird'.cluster-analysis-worker.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cluster-analysis-worker/'Jetbird'.cluster-analysis-worker.main.iml" filepath="$PROJECT_DIR$/.idea/modules/cluster-analysis-worker/'Jetbird'.cluster-analysis-worker.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cluster-analysis-worker/'Jetbird'.cluster-analysis-worker.test.iml" filepath="$PROJECT_DIR$/.idea/modules/cluster-analysis-worker/'Jetbird'.cluster-analysis-worker.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/cluster-analysis.iml" filepath="$PROJECT_DIR$/cluster-analysis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cluster-analysis-common.iml" filepath="$PROJECT_DIR$/.idea/modules/cluster-analysis-common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cluster-analysis-webapp.iml" filepath="$PROJECT_DIR$/.idea/modules/cluster-analysis-webapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cluster-analysis-common/cluster-analysis-common.iml" filepath="$PROJECT_DIR$/.idea/modules/cluster-analysis-common/cluster-analysis-common.iml" group="cluster-analysis-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cluster-analysis-common/cluster-analysis-common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/cluster-analysis-common/cluster-analysis-common_main.iml" group="cluster-analysis-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cluster-analysis-common/cluster-analysis-common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/cluster-analysis-common/cluster-analysis-common_test.iml" group="cluster-analysis-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cluster-analysis-topology/cluster-analysis-topology.iml" filepath="$PROJECT_DIR$/.idea/modules/cluster-analysis-topology/cluster-analysis-topology.iml" group="cluster-analysis-topology" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cluster-analysis-topology/cluster-analysis-topology_main.iml" filepath="$PROJECT_DIR$/.idea/modules/cluster-analysis-topology/cluster-analysis-topology_main.iml" group="cluster-analysis-topology" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cluster-analysis-topology/cluster-analysis-topology_test.iml" filepath="$PROJECT_DIR$/.idea/modules/cluster-analysis-topology/cluster-analysis-topology_test.iml" group="cluster-analysis-topology" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cluster-analysis-webapp/cluster-analysis-webapp.iml" filepath="$PROJECT_DIR$/.idea/modules/cluster-analysis-webapp/cluster-analysis-webapp.iml" group="cluster-analysis-webapp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cluster-analysis-webapp/cluster-analysis-webapp_main.iml" filepath="$PROJECT_DIR$/.idea/modules/cluster-analysis-webapp/cluster-analysis-webapp_main.iml" group="cluster-analysis-webapp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cluster-analysis-webapp/cluster-analysis-webapp_test.iml" filepath="$PROJECT_DIR$/.idea/modules/cluster-analysis-webapp/cluster-analysis-webapp_test.iml" group="cluster-analysis-webapp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cluster-analysis-worker/cluster-analysis-worker.iml" filepath="$PROJECT_DIR$/.idea/modules/cluster-analysis-worker/cluster-analysis-worker.iml" group="cluster-analysis-worker" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cluster-analysis-worker/cluster-analysis-worker_main.iml" filepath="$PROJECT_DIR$/.idea/modules/cluster-analysis-worker/cluster-analysis-worker_main.iml" group="cluster-analysis-worker" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cluster-analysis-worker/cluster-analysis-worker_test.iml" filepath="$PROJECT_DIR$/.idea/modules/cluster-analysis-worker/cluster-analysis-worker_test.iml" group="cluster-analysis-worker" />
     </modules>
   </component>
 </project>
