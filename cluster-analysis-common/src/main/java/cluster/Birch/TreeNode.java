@@ -2,9 +2,7 @@ package cluster.Birch;
 
 import java.io.Serializable;
 
-/**
- * Created by hujian on 2017/2/25.
- */
+
 public abstract class TreeNode extends CF implements Serializable{
 
     private static final long serialVersionUID = -218976009802320810L;

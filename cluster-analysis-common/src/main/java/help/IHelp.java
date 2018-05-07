@@ -2,9 +2,7 @@ package help;
 
 import java.io.Serializable;
 
-/**
- * Created by hujian on 2017/3/9.
- */
+
 public interface IHelp extends Serializable {
     /**
      * get help information for this class.
