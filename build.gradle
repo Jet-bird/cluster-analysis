@@ -22,6 +22,7 @@ subprojects {
     sourceCompatibility = 1.8
     repositories {
         maven { url = "http://maven.aliyun.com/nexus/content/groups/public/" }
+        mavenLocal()
         google()
         jcenter()
         mavenCentral()
@@ -37,7 +38,7 @@ subprojects {
     project(':cluster-analysis-common') {
         dependencies{
             //storm包引入不完整，手动下载
-//        compile libraries.storm_core
+            compile libraries.storm_core
             compile libraries.fastJson
         }
     }

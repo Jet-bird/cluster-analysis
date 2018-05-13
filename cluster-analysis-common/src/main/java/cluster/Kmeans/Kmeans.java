@@ -1,6 +1,7 @@
 package cluster.Kmeans;
 
-import com.hujian.trident.ml.utils.MathUtils;
+
+import core.MathUtils;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,12 +1,12 @@
 package core;
 
-import backtype.storm.tuple.Values;
-import storm.trident.operation.BaseFunction;
-import storm.trident.operation.TridentCollector;
-import storm.trident.tuple.TridentTuple;
+import org.apache.storm.tuple.Values;
+import org.apache.storm.trident.operation.BaseFunction;
+import org.apache.storm.trident.operation.TridentCollector;
+import org.apache.storm.trident.tuple.TridentTuple;
 
 
-public class CountEntryInstanceCreator<T> extends BaseFunction{
+public class CountEntryInstanceCreator<T> extends BaseFunction {
 
     private static final long serialVersionUID = 224237602441072L;
 

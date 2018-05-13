@@ -1,6 +1,6 @@
 package cluster.Canopy;
 
-import com.hujian.trident.ml.utils.MathUtils;
+import core.MathUtils;
 
 import java.io.Serializable;
 import java.util.ArrayList;

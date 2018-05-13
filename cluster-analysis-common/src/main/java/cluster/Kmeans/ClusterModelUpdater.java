@@ -1,10 +1,10 @@
 package cluster.Kmeans;
 
-import com.hujian.trident.ml.core.Instance;
-import storm.trident.operation.TridentCollector;
-import storm.trident.state.BaseStateUpdater;
-import storm.trident.state.map.MapState;
-import storm.trident.tuple.TridentTuple;
+import core.Instance;
+import org.apache.storm.trident.operation.TridentCollector;
+import org.apache.storm.trident.state.BaseStateUpdater;
+import org.apache.storm.trident.state.map.MapState;
+import org.apache.storm.trident.tuple.TridentTuple;
 
 import java.util.Arrays;
 import java.util.List;
