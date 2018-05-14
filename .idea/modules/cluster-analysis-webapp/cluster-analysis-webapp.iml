@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":cluster-analysis-webapp" external.linked.project.path="$MODULE_DIR$/../../../cluster-analysis-webapp" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="'Jetbird'" external.system.module.version="'1.0-SNAPSHOT'" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../cluster-analysis-webapp">
+      <excludeFolder url="file://$MODULE_DIR$/../../../cluster-analysis-webapp/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../cluster-analysis-webapp/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../cluster-analysis-webapp/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

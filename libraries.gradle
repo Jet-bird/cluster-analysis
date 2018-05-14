@@ -7,7 +7,9 @@ ext{
    junitPlatformVersion     = '1.1.0'
    junitJupiterVersion      = '5.1.0'
 
-   log4jVersion             = '2.11.0'
+   log4jVersion             = '2.8.2'
+   sl4jVersion              = '1.7.25'
+
 
 //   ringCoreVersion          = '0.1.5'
    stormVersion             = '1.2.1'
@@ -20,11 +22,12 @@ ext{
            springFramework         : "org.springframework:spring-context:${springVsersion}",
            springKafka             : "org.springframework.kafka:spring-kafka:${springKafkaVersion}",
            springBoot              : "org.springframework.boot:spring-boot-starter-web:${springBootVersion}",
+           springBoot_tomcat       : "org.springframework.boot:spring-boot-starter-tomcat:${springBootVersion}",
            fastJson                : "com.alibaba:fastjson:${fastJsonVersion}",
-//           ring_core               : "ring:ring-core:${ringCoreVersion}",
            storm_core              : "org.apache.storm:storm-core:${stormVersion}",
            log4j_api               : "org.apache.logging.log4j:log4j-api:${log4jVersion}",
            log4j_core              : "org.apache.logging.log4j:log4j-core:${log4jVersion}",
+           slfj_binding            : "org.slf4j:slf4j-log4j12:${sl4jVersion}",
            junit_platform_common   : "org.junit.platform:junit-platform-commons:${junitPlatformVersion}",
            junit_platform_console  : "org.junit.platform:junit-platform-console:${junitPlatformVersion}",
            junit_platform_engine   : "org.junit.platform:junit-platform-engine:${junitPlatformVersion}",

@@ -25,7 +25,22 @@
             <element id="module-output" name="cluster-analysis-common_main" />
             <element id="dir-copy" path="$PROJECT_DIR$/cluster-analysis-common/out/production/resources" />
           </element>
+          <element id="library" level="project" name="Gradle: org.apache.storm:storm-core:1.2.1" />
           <element id="library" level="project" name="Gradle: com.alibaba:fastjson:1.2.47" />
+          <element id="library" level="project" name="Gradle: com.esotericsoftware:kryo:3.0.3" />
+          <element id="library" level="project" name="Gradle: ring-cors:ring-cors:0.1.5" />
+          <element id="library" level="project" name="Gradle: org.clojure:clojure:1.7.0" />
+          <element id="library" level="project" name="Gradle: com.lmax:disruptor:3.3.2" />
+          <element id="library" level="project" name="Gradle: org.slf4j:log4j-over-slf4j:1.6.6" />
+          <element id="library" level="project" name="Gradle: io.dropwizard.metrics:metrics-graphite:3.1.0" />
+          <element id="library" level="project" name="Gradle: io.dropwizard.metrics:metrics-ganglia:3.1.0" />
+          <element id="library" level="project" name="Gradle: io.dropwizard.metrics:metrics-core:3.1.0" />
+          <element id="library" level="project" name="Gradle: javax.servlet:servlet-api:2.5" />
+          <element id="library" level="project" name="Gradle: com.esotericsoftware:reflectasm:1.10.1" />
+          <element id="library" level="project" name="Gradle: com.esotericsoftware:minlog:1.3.0" />
+          <element id="library" level="project" name="Gradle: org.objenesis:objenesis:2.1" />
+          <element id="library" level="project" name="Gradle: info.ganglia.gmetric4j:gmetric4j:1.0.7" />
+          <element id="library" level="project" name="Gradle: org.ow2.asm:asm:5.0.3" />
           <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-web:2.0.1.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-webmvc:5.0.5.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-json:2.0.1.RELEASE" />
@@ -33,10 +48,11 @@
           <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-autoconfigure:2.0.1.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot:2.0.1.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-context:5.0.5.RELEASE" />
-          <element id="library" level="project" name="Gradle: org.apache.logging.log4j:log4j-core:2.11.0" />
+          <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-tomcat:2.0.1.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.apache.logging.log4j:log4j-core:2.8.2" />
           <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-logging:2.0.1.RELEASE" />
           <element id="library" level="project" name="Gradle: org.apache.logging.log4j:log4j-to-slf4j:2.10.0" />
-          <element id="library" level="project" name="Gradle: org.apache.logging.log4j:log4j-api:2.11.0" />
+          <element id="library" level="project" name="Gradle: org.apache.logging.log4j:log4j-api:2.10.0" />
           <element id="library" level="project" name="Gradle: org.junit.platform:junit-platform-console:1.1.0" />
           <element id="library" level="project" name="Gradle: org.junit.platform:junit-platform-runner:1.1.0" />
           <element id="library" level="project" name="Gradle: org.junit.platform:junit-platform-launcher:1.1.0" />
@@ -52,46 +68,29 @@
           <element id="library" level="project" name="Gradle: org.springframework:spring-beans:5.0.5.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-expression:5.0.5.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-core:5.0.5.RELEASE" />
-          <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-tomcat:2.0.1.RELEASE" />
           <element id="library" level="project" name="Gradle: org.hibernate.validator:hibernate-validator:6.0.9.Final" />
-          <element id="library" level="project" name="Gradle: junit:junit:4.12" />
-          <element id="library" level="project" name="Gradle: org.springframework:spring-jcl:5.0.5.RELEASE" />
           <element id="library" level="project" name="Gradle: javax.annotation:javax.annotation-api:1.3.2" />
+          <element id="library" level="project" name="Gradle: org.apache.tomcat.embed:tomcat-embed-websocket:8.5.29" />
+          <element id="library" level="project" name="Gradle: org.apache.tomcat.embed:tomcat-embed-core:8.5.29" />
+          <element id="library" level="project" name="Gradle: org.apache.tomcat.embed:tomcat-embed-el:8.5.29" />
+          <element id="library" level="project" name="Gradle: junit:junit:4.12" />
+          <element id="library" level="project" name="Gradle: ch.qos.logback:logback-classic:1.2.3" />
+          <element id="library" level="project" name="Gradle: org.slf4j:jul-to-slf4j:1.7.25" />
+          <element id="library" level="project" name="Gradle: org.slf4j:slf4j-api:1.7.25" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-jcl:5.0.5.RELEASE" />
           <element id="library" level="project" name="Gradle: org.yaml:snakeyaml:1.19" />
           <element id="library" level="project" name="Gradle: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.9.5" />
           <element id="library" level="project" name="Gradle: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.5" />
           <element id="library" level="project" name="Gradle: com.fasterxml.jackson.module:jackson-module-parameter-names:2.9.5" />
           <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.5" />
-          <element id="library" level="project" name="Gradle: org.apache.tomcat.embed:tomcat-embed-websocket:8.5.29" />
-          <element id="library" level="project" name="Gradle: org.apache.tomcat.embed:tomcat-embed-core:8.5.29" />
-          <element id="library" level="project" name="Gradle: org.apache.tomcat.embed:tomcat-embed-el:8.5.29" />
           <element id="library" level="project" name="Gradle: javax.validation:validation-api:2.0.1.Final" />
           <element id="library" level="project" name="Gradle: org.jboss.logging:jboss-logging:3.3.2.Final" />
           <element id="library" level="project" name="Gradle: com.fasterxml:classmate:1.3.4" />
           <element id="library" level="project" name="Gradle: org.hamcrest:hamcrest-core:1.3" />
-          <element id="library" level="project" name="Gradle: ch.qos.logback:logback-classic:1.2.3" />
-          <element id="library" level="project" name="Gradle: org.slf4j:jul-to-slf4j:1.7.25" />
           <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.9.0" />
           <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.9.5" />
-          <element id="library" level="project" name="Gradle: ch.qos.logback:logback-core:1.2.3" />
-          <element id="library" level="project" name="Gradle: org.slf4j:slf4j-api:1.7.25" />
           <element id="library" level="project" name="Gradle: org.apache.tomcat:tomcat-annotations-api:8.5.29" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.storm/storm-core/1.2.1/78f02ababb889e6fcf684e74b2e355276b32d27c/storm-core-1.2.1.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-slf4j-impl/2.8.2/36bc2a99b86be26ccdc51fe288458dc712d280c1/log4j-slf4j-impl-2.8.2.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.esotericsoftware/kryo/3.0.3/1ebca99f633ef31484176a727093e78c7fa43e7/kryo-3.0.3.jar" />
-          <element id="file-copy" path="$MAVEN_REPOSITORY$/ring-cors/ring-cors/0.1.5/ring-cors-0.1.5.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.clojure/clojure/1.7.0/4953eb1ffa4adca22760c9324c9c26d2038c392a/clojure-1.7.0.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.lmax/disruptor/3.3.2/8db3df28d7e4ad2526be59b54a1cbd9c9e982a7a/disruptor-3.3.2.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/log4j-over-slf4j/1.6.6/170e8f7395753ebbe6710bb862a84689db1f128b/log4j-over-slf4j-1.6.6.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.dropwizard.metrics/metrics-graphite/3.1.0/fd006ed4c82874550c36416888e055a5ffd22b0b/metrics-graphite-3.1.0.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.dropwizard.metrics/metrics-ganglia/3.1.0/4589544938355d5352b512532dd1a8f2ceb43cb/metrics-ganglia-3.1.0.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.dropwizard.metrics/metrics-core/3.1.0/40e16d596ca49964a88bbce2261e387895b3499e/metrics-core-3.1.0.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.servlet/servlet-api/2.5/5959582d97d8b61f4d154ca9e495aafd16726e34/servlet-api-2.5.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.esotericsoftware/reflectasm/1.10.1/515402cd542ab967a1b5028b4dee1e1800db205b/reflectasm-1.10.1.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.esotericsoftware/minlog/1.3.0/ff07b5f1b01d2f92bb00a337f9a94873712f0827/minlog-1.3.0.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.1/87c0ea803b69252868d09308b4618f766f135a96/objenesis-2.1.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/info.ganglia.gmetric4j/gmetric4j/1.0.7/37a1cb0d8821cad9bd33f1ce454459fed18efa44/gmetric4j-1.0.7.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.3/dcc2193db20e19e1feca8b1240dbbc4e190824fa/asm-5.0.3.jar" />
+          <element id="library" level="project" name="Gradle: ch.qos.logback:logback-core:1.2.3" />
         </element>
       </element>
     </root>

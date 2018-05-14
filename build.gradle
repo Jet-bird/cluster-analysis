@@ -8,14 +8,19 @@ buildscript {
         maven { url = "http://maven.aliyun.com/nexus/content/groups/public/" }
         jcenter()
         google()
+        maven { url 'https://repo.spring.io/libs-snapshot' }
         mavenCentral()
     }
-    dependencies {
+}
 
+configurations.all{
+    resolutionStrategy {
+        failOnVersionConflict()
     }
 }
 
 subprojects {
+    apply plugin: 'project-report'
     apply plugin: 'java'
     apply plugin: 'idea'
 
@@ -38,17 +43,19 @@ subprojects {
     project(':cluster-analysis-common') {
         dependencies{
             //storm包引入不完整，手动下载
-            compile libraries.storm_core
+            compile (libraries.storm_core){
+                exclude group :'org.apache.logging.log4j'
+            }
             compile libraries.fastJson
         }
     }
-
 
     project(':cluster-analysis-topology') {
         dependencies {
             compile project(':cluster-analysis-common')
             compile libraries.springFramework
             compile libraries.springBoot
+            compile libraries.springBoot_tomcat
             compile libraries.log4j_api
             compile libraries.log4j_core
             compile libraries.junit_platform_common
