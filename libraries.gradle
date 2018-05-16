@@ -3,31 +3,52 @@ ext{
    springBootVersion        = '2.0.1.RELEASE'
    springKafkaVersion       = '2.1.5.RELEASE'
    springWebFlow            = '2.5.0.RELEASE'
+   mybatisSpringBootVersion = '1.3.2'
 
    junitPlatformVersion     = '1.1.0'
    junitJupiterVersion      = '5.1.0'
 
    log4jVersion             = '2.8.2'
    sl4jVersion              = '1.7.25'
+   kafkaClientsVersion      = '1.1.0'
+   kafkaVersion             = '1.1.0'
 
-
-//   ringCoreVersion          = '0.1.5'
    stormVersion             = '1.2.1'
 
    fastJsonVersion          = '1.2.47'
 
    apiguardianVersion       = '1.0.0'
 
+   druidVersion             = '1.1.8'
+
+   mysqlConnectorVersion    = '5.1.46'
+
+   lombokVersion            = '1.16.20'
+
+   beanMapperVersion        = '2.4.0'
+
+
    supportDependencies =[
            springFramework         : "org.springframework:spring-context:${springVsersion}",
            springKafka             : "org.springframework.kafka:spring-kafka:${springKafkaVersion}",
            springBoot              : "org.springframework.boot:spring-boot-starter-web:${springBootVersion}",
            springBoot_tomcat       : "org.springframework.boot:spring-boot-starter-tomcat:${springBootVersion}",
+           springBoot_jdbc         : "org.springframework.boot:spring-boot-starter-jdbc:${springBootVersion}",
+           springBoot_test         : "org.springframework.boot:spring-boot-starter-test:${springBootVersion}",
+           mybatisSpringBoot       : "org.mybatis.spring.boot:mybatis-spring-boot-starter:${mybatisSpringBootVersion}",
+           druid                   : "com.alibaba:druid:${druidVersion}",
+           mysqlConnector          : "mysql:mysql-connector-java:${mysqlConnectorVersion}",
+
            fastJson                : "com.alibaba:fastjson:${fastJsonVersion}",
+
            storm_core              : "org.apache.storm:storm-core:${stormVersion}",
+           storm_kafka             : "org.apache.storm:storm-kafka:${stormVersion}",
+           storm_kafka_client      : "org.apache.storm:storm-kafka-client:${stormVersion}",
+
            log4j_api               : "org.apache.logging.log4j:log4j-api:${log4jVersion}",
            log4j_core              : "org.apache.logging.log4j:log4j-core:${log4jVersion}",
            slfj_binding            : "org.slf4j:slf4j-log4j12:${sl4jVersion}",
+
            junit_platform_common   : "org.junit.platform:junit-platform-commons:${junitPlatformVersion}",
            junit_platform_console  : "org.junit.platform:junit-platform-console:${junitPlatformVersion}",
            junit_platform_engine   : "org.junit.platform:junit-platform-engine:${junitPlatformVersion}",
@@ -36,8 +57,13 @@ ext{
            junit_jupiter_api       : "org.junit.jupiter:junit-jupiter-api:${junitJupiterVersion}",
            junit_jupiter_params    : "org.junit.jupiter:junit-jupiter-params:${junitJupiterVersion}",
            apiguardian             : "org.apiguardian:apiguardian-api:${apiguardianVersion}",
-           opentest4j              : "org.opentest4j:opentest4j:${apiguardianVersion}"
+           opentest4j              : "org.opentest4j:opentest4j:${apiguardianVersion}",
 
+           kafka_clients           : "org.apache.kafka:kafka-clients:${kafkaClientsVersion}",
+           kafka                   : "org.apache.kafka:kafka_2.12:${kafkaVersion}",
+
+           lombok                  : "org.projectlombok:lombok:${lombokVersion}",
+           bean_mapper             : "io.beanmapper:beanmapper:${beanMapperVersion}"
    ]
 }
 

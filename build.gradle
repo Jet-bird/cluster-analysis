@@ -31,6 +31,8 @@ subprojects {
         google()
         jcenter()
         mavenCentral()
+        maven { url "http://repo.spring.io/snapshot" }
+        maven { url "http://repo.spring.io/milestone" }
     }
 
     dependencies {
@@ -46,16 +48,28 @@ subprojects {
             compile (libraries.storm_core){
                 exclude group :'org.apache.logging.log4j'
             }
+            compile libraries.storm_kafka
+            compile libraries.storm_kafka_client
+            compile libraries.kafka
+            compile libraries.kafka_clients
             compile libraries.fastJson
+            compile libraries.lombok
+            compile libraries.bean_mapper
+            compile libraries.springBoot_test
+            compile libraries.springKafka
         }
     }
 
     project(':cluster-analysis-topology') {
         dependencies {
             compile project(':cluster-analysis-common')
-            compile libraries.springFramework
+//            compile libraries.springFramework
             compile libraries.springBoot
             compile libraries.springBoot_tomcat
+            compile libraries.springBoot_jdbc
+            compile libraries.druid
+            compile libraries.mysqlConnector
+            compile libraries.mybatisSpringBoot
             compile libraries.log4j_api
             compile libraries.log4j_core
             compile libraries.junit_platform_common

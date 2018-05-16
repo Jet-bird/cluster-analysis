@@ -1,15 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+    </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cluster-analysis-common_main" target="1.8" />
+      <module name="cluster-analysis-common_main~1" target="1.8" />
       <module name="cluster-analysis-common_test" target="1.8" />
+      <module name="cluster-analysis-common_test~1" target="1.8" />
       <module name="cluster-analysis-topology_main" target="1.8" />
+      <module name="cluster-analysis-topology_main~1" target="1.8" />
       <module name="cluster-analysis-topology_test" target="1.8" />
+      <module name="cluster-analysis-topology_test~1" target="1.8" />
       <module name="cluster-analysis-webapp_main" target="1.8" />
+      <module name="cluster-analysis-webapp_main~1" target="1.8" />
       <module name="cluster-analysis-webapp_test" target="1.8" />
+      <module name="cluster-analysis-webapp_test~1" target="1.8" />
       <module name="cluster-analysis-worker_main" target="1.8" />
+      <module name="cluster-analysis-worker_main~1" target="1.8" />
       <module name="cluster-analysis-worker_test" target="1.8" />
+      <module name="cluster-analysis-worker_test~1" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

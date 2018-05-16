@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.beanmapper:beanmapper:2.4.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.beanmapper/beanmapper/2.4.0/ffaf701d34054c61d9a96d69160b4f01bb43d1b3/beanmapper-2.4.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.beanmapper/beanmapper/2.4.0/7fb065956530b031ac4aa7a9359ea224c9bbd46d/beanmapper-2.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
