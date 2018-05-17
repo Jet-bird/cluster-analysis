@@ -18,7 +18,7 @@
     <orderEntry type="library" name="Gradle: org.apache.storm:storm-core:1.2.1" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.storm:storm-kafka:1.2.1" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.storm:storm-kafka-client:1.2.1" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.kafka:kafka_2.12:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.kafka:kafka_2.11:1.1.0" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.kafka:spring-kafka:2.1.5.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.kafka:kafka-clients:1.1.0" level="project" />
     <orderEntry type="library" name="Gradle: com.alibaba:fastjson:1.2.47" level="project" />
@@ -36,7 +36,7 @@
     <orderEntry type="library" name="Gradle: io.dropwizard.metrics:metrics-core:3.1.0" level="project" />
     <orderEntry type="library" name="Gradle: javax.servlet:servlet-api:2.5" level="project" />
     <orderEntry type="library" name="Gradle: com.yammer.metrics:metrics-core:2.2.0" level="project" />
-    <orderEntry type="library" name="Gradle: com.typesafe.scala-logging:scala-logging_2.12:3.7.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.typesafe.scala-logging:scala-logging_2.11:3.7.2" level="project" />
     <orderEntry type="library" name="Gradle: com.101tec:zkclient:0.10" level="project" />
     <orderEntry type="library" name="Gradle: com.jayway.jsonpath:json-path:2.4.0" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.curator:curator-framework:4.0.0" level="project" />
@@ -54,8 +54,8 @@
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.4" level="project" />
     <orderEntry type="library" name="Gradle: com.google.guava:guava:20.0" level="project" />
     <orderEntry type="library" name="Gradle: net.sf.jopt-simple:jopt-simple:5.0.4" level="project" />
-    <orderEntry type="library" name="Gradle: org.scala-lang:scala-reflect:2.12.4" level="project" />
-    <orderEntry type="library" name="Gradle: org.scala-lang:scala-library:2.12.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.scala-lang:scala-reflect:2.11.12" level="project" />
+    <orderEntry type="library" name="Gradle: org.scala-lang:scala-library:2.11.12" level="project" />
     <orderEntry type="library" name="Gradle: org.javassist:javassist:3.20.0-GA" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-test-autoconfigure:2.0.1.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-test:2.0.1.RELEASE" level="project" />

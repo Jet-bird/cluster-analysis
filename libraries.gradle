@@ -60,7 +60,7 @@ ext{
            opentest4j              : "org.opentest4j:opentest4j:${apiguardianVersion}",
 
            kafka_clients           : "org.apache.kafka:kafka-clients:${kafkaClientsVersion}",
-           kafka                   : "org.apache.kafka:kafka_2.12:${kafkaVersion}",
+           kafka                   : "org.apache.kafka:kafka_2.11:${kafkaVersion}",
 
            lombok                  : "org.projectlombok:lombok:${lombokVersion}",
            bean_mapper             : "io.beanmapper:beanmapper:${beanMapperVersion}"

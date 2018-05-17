@@ -1,99 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/cluster-analysis-worker/src/test/java/kafka/KafkaUtilsTest.java" description="listAllTopics(client);" line="26" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b264f7d-dc30-4d05-896b-2b92d040f907" name="Default" comment="mybatis and datasource">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_101tec_zkclient_0_10.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_alibaba_druid_1_1_8.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_9_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_9_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_20_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_googlecode_json_simple_json_simple_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jayway_jsonpath_json_path_2_4_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_typesafe_scala_logging_scala_logging_2_12_3_7_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_yammer_metrics_metrics_core_2_2_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_zaxxer_HikariCP_2_7_8.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_cli_commons_cli_1_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_io_commons_io_2_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_lang_commons_lang_2_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_beanmapper_beanmapper_2_4_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_3_10_5_Final.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__log4j_log4j_1_2_17.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__mysql_mysql_connector_java_5_1_46.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_7_9.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_agent_1_7_9.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_minidev_accessors_smart_1_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_minidev_json_smart_2_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_jopt_simple_jopt_simple_5_0_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_curator_curator_client_4_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_curator_curator_framework_4_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_kafka_kafka_2_12_1_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_kafka_kafka_clients_1_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_storm_storm_kafka_1_2_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_storm_storm_kafka_client_1_2_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_zookeeper_zookeeper_3_5_3_beta.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_assertj_assertj_core_3_9_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_javassist_javassist_3_20_0_GA.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lz4_lz4_java_1_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_core_2_15_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mybatis_mybatis_3_4_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mybatis_mybatis_spring_1_3_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_objenesis_objenesis_2_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_5_0_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_projectlombok_lombok_1_16_20.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_scala_lang_scala_library_2_12_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_scala_lang_scala_reflect_2_12_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_skyscreamer_jsonassert_1_5_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_jdbc_2_0_1_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_test_2_0_1_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_2_0_1_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_autoconfigure_2_0_1_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_kafka_spring_kafka_2_1_5_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_retry_spring_retry_1_2_2_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_jdbc_5_0_5_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_messaging_5_0_4_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_test_5_0_5_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_tx_5_0_4_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_tx_5_0_5_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_xerial_snappy_snappy_java_1_1_7_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_xmlunit_xmlunit_core_2_5_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/cluster-analysis-common/cluster-analysis-common_main~1.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/cluster-analysis-common/cluster-analysis-common_test~1.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/cluster-analysis-topology/cluster-analysis-topology_main~1.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/cluster-analysis-topology/cluster-analysis-topology_test~1.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/cluster-analysis-webapp/cluster-analysis-webapp_main~1.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/cluster-analysis-webapp/cluster-analysis-webapp_test~1.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/cluster-analysis-worker/cluster-analysis-worker_main~1.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/cluster-analysis-worker/cluster-analysis-worker_test~1.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cluster-analysis-common/src/main/java/help/BaseTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cluster-analysis-worker/src/main/java/dao/TmProductDataDao.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cluster-analysis-worker/src/main/java/kafka/MessageProducer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cluster-analysis-worker/src/main/java/model/TmProductDataModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cluster-analysis-worker/src/main/java/service/SimulateService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cluster-analysis-worker/src/main/java/service/impl/Main.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cluster-analysis-worker/src/main/java/service/impl/SimulateServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cluster-analysis-worker/src/test/java/TmProductDataDaoTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cluster-analysis-worker/src/test/resources/application.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cluster-analysis-worker/src/test/resources/log4j.properties" />
+    <list default="true" id="8b264f7d-dc30-4d05-896b-2b92d040f907" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_kafka_kafka_2_11_1_1_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_scala_lang_scala_library_2_11_12.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_scala_lang_scala_reflect_2_11_12.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cluster-analysis-worker/src/main/java/kafka/KafkaUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cluster-analysis-worker/src/test/java/kafka/KafkaUtilsTest.java" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle____Jetbird____cluster_analysis_webapp__1_0_SNAPSHOT__war__exploded_.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle____Jetbird____cluster_analysis_webapp__1_0_SNAPSHOT__war__exploded_.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/cluster-analysis-common/cluster-analysis-common_main.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/cluster-analysis-common/cluster-analysis-common_test.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/cluster-analysis-topology/cluster-analysis-topology_main.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/cluster-analysis-topology/cluster-analysis-topology_test.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/cluster-analysis-webapp/cluster-analysis-webapp_main.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/cluster-analysis-webapp/cluster-analysis-webapp_test.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/cluster-analysis-worker/cluster-analysis-worker_main.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/cluster-analysis-worker/cluster-analysis-worker_test.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_typesafe_scala_logging_scala_logging_2_12_3_7_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_typesafe_scala_logging_scala_logging_2_11_3_7_2.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_kafka_kafka_2_12_1_1_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_scala_lang_scala_library_2_12_4.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_scala_lang_scala_reflect_2_12_4.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/cluster-analysis-common/cluster-analysis-common_main~1.iml" afterPath="$PROJECT_DIR$/.idea/modules/cluster-analysis-common/cluster-analysis-common_main~1.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/cluster-analysis-common/cluster-analysis-common_test~1.iml" afterPath="$PROJECT_DIR$/.idea/modules/cluster-analysis-common/cluster-analysis-common_test~1.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/cluster-analysis-topology/cluster-analysis-topology_main~1.iml" afterPath="$PROJECT_DIR$/.idea/modules/cluster-analysis-topology/cluster-analysis-topology_main~1.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/cluster-analysis-topology/cluster-analysis-topology_test~1.iml" afterPath="$PROJECT_DIR$/.idea/modules/cluster-analysis-topology/cluster-analysis-topology_test~1.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/cluster-analysis-webapp/cluster-analysis-webapp_main~1.iml" afterPath="$PROJECT_DIR$/.idea/modules/cluster-analysis-webapp/cluster-analysis-webapp_main~1.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/cluster-analysis-webapp/cluster-analysis-webapp_test~1.iml" afterPath="$PROJECT_DIR$/.idea/modules/cluster-analysis-webapp/cluster-analysis-webapp_test~1.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/cluster-analysis-worker/cluster-analysis-worker_main~1.iml" afterPath="$PROJECT_DIR$/.idea/modules/cluster-analysis-worker/cluster-analysis-worker_main~1.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/cluster-analysis-worker/cluster-analysis-worker_test~1.iml" afterPath="$PROJECT_DIR$/.idea/modules/cluster-analysis-worker/cluster-analysis-worker_test~1.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/cluster-analysis-webapp/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/cluster-analysis-webapp/src/main/resources/application.yml" />
+      <change beforePath="$PROJECT_DIR$/cluster-analysis-worker/src/main/java/service/impl/SimulateServiceImpl.java" afterPath="$PROJECT_DIR$/cluster-analysis-worker/src/main/java/service/impl/SimulateServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/cluster-analysis-worker/src/test/java/TmProductDataDaoTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cluster-analysis-worker/src/test/resources/log4j.properties" afterPath="$PROJECT_DIR$/cluster-analysis-worker/src/test/resources/log4j.properties" />
       <change beforePath="$PROJECT_DIR$/libraries.gradle" afterPath="$PROJECT_DIR$/libraries.gradle" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -194,12 +127,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+      <file leaf-file-name="SimulateServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cluster-analysis-worker/src/main/java/service/impl/SimulateServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="72" column="39" lean-forward="false" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="39" />
-              <folding />
+            <state relative-caret-position="550">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -207,50 +142,52 @@
       <file leaf-file-name="libraries.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/libraries.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-100">
-              <caret line="32" column="22" lean-forward="false" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="22" />
+            <state relative-caret-position="300">
+              <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TmProductDataDaoTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cluster-analysis-worker/src/test/java/TmProductDataDaoTest.java">
+      <file leaf-file-name="KafkaUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cluster-analysis-worker/src/main/java/kafka/KafkaUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+            <state relative-caret-position="150">
+              <caret line="23" column="76" lean-forward="false" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="76" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cluster-analysis-worker/src/test/resources/application.yml">
+      <file leaf-file-name="NewTopic.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka-clients/1.1.0/259e3f93213831dfb1b65ac20b3e3a945f462818/kafka-clients-1.1.0-sources.jar!/org/apache/kafka/clients/admin/NewTopic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="812">
-              <caret line="34" column="11" lean-forward="true" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+            <state relative-caret-position="363">
+              <caret line="42" column="51" lean-forward="true" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cluster-analysis.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cluster-analysis.iml">
+      <file leaf-file-name="KafkaUtilsTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cluster-analysis-worker/src/test/java/kafka/KafkaUtilsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MessageProducer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cluster-analysis-worker/src/main/java/kafka/MessageProducer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+            <state relative-caret-position="594">
+              <caret line="125" column="5" lean-forward="true" selection-start-line="36" selection-start-column="4" selection-end-line="125" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminClient.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka-clients/1.1.0/259e3f93213831dfb1b65ac20b3e3a945f462818/kafka-clients-1.1.0-sources.jar!/org/apache/kafka/clients/admin/AdminClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="211" column="0" lean-forward="false" selection-start-line="211" selection-start-column="0" selection-end-line="211" selection-end-column="0" />
+              <folding>
+                <element signature="e#8886#8887#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -277,6 +214,10 @@
       <find>ClusterModelUpdater</find>
       <find>parallelismHint</find>
       <find>partitionPersist</find>
+      <find>repilca</find>
+      <find>properties</find>
+      <find>org.apache.kafka.clients.NetworkClient</find>
+      <find>kafkaClientsVersion</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -1135,10 +1076,10 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6103642630207" />
+        <entry key="$PROJECT_DIR$" value="6103644869373" />
         <entry key="$PROJECT_DIR$/build.gradle" value="3658021910" />
         <entry key="$PROJECT_DIR$/gradle.properties" value="2134766251" />
-        <entry key="$PROJECT_DIR$/libraries.gradle" value="522112192" />
+        <entry key="$PROJECT_DIR$/libraries.gradle" value="3090361937" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="2981423629" />
       </map>
     </option>
@@ -1323,17 +1264,20 @@
         <option value="$PROJECT_DIR$/cluster-analysis-webapp/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cluster-analysis-worker/src/main/java/service/impl/SimulateService.java" />
         <option value="$PROJECT_DIR$/cluster-analysis-worker/src/main/java/dao/TmProductDataDao.java" />
-        <option value="$PROJECT_DIR$/cluster-analysis-worker/src/main/java/service/impl/SimulateServiceImpl.java" />
         <option value="$PROJECT_DIR$/cluster-analysis-common/src/test/java/BaseTest.java" />
         <option value="$PROJECT_DIR$/cluster-analysis-worker/src/main/java/service/impl/Main.java" />
         <option value="$PROJECT_DIR$/cluster-analysis-common/src/main/java/help/BaseTest.java" />
         <option value="$PROJECT_DIR$/cluster-analysis-worker/src/test/java/TmProductDataDaoTest.java" />
-        <option value="$PROJECT_DIR$/libraries.gradle" />
         <option value="$PROJECT_DIR$/cluster-analysis.iml" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/cluster-analysis-worker/src/test/resources/application.yml" />
         <option value="$PROJECT_DIR$/cluster-analysis-worker/src/main/java/kafka/MessageProducer.java" />
+        <option value="$PROJECT_DIR$/libraries.gradle" />
+        <option value="$PROJECT_DIR$/cluster-analysis-worker/src/test/java/dao/TmProductDataDaoTest.java" />
         <option value="$PROJECT_DIR$/cluster-analysis-worker/src/test/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/cluster-analysis-worker/src/test/java/kafka/KafkaUtilsTest.java" />
+        <option value="$PROJECT_DIR$/cluster-analysis-worker/src/main/java/kafka/KafkaUtils.java" />
+        <option value="$PROJECT_DIR$/cluster-analysis-worker/src/main/java/service/impl/SimulateServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -1344,10 +1288,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-1429" />
+    <option name="y" value="-131" />
+    <option name="width" value="1080" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -1467,10 +1411,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1481,6 +1425,11 @@
             <path>
               <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
               <item name="cluster-analysis" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cluster-analysis-common" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cluster-analysis" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="cluster-analysis-worker" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -1503,6 +1452,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cluster-analysis" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cluster-analysis-worker" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
@@ -1512,71 +1470,139 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="kafka" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cluster-analysis" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="cluster-analysis-worker" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="MessageProducer" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cluster-analysis" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="cluster-analysis-worker" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cluster-analysis" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="cluster-analysis-worker" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-              <item name="SimulateServiceImpl" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cluster-analysis" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="cluster-analysis-worker" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cluster-analysis" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="cluster-analysis-worker" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cluster-analysis" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="cluster-analysis-worker" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="TmProductDataDaoTest" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cluster-analysis" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="cluster-analysis-worker" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.kafka:kafka-clients:1.1.0" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.kafka:kafka-clients:1.1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="kafka-clients-1.1.0.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.kafka:kafka-clients:1.1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="kafka-clients-1.1.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.kafka:kafka-clients:1.1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="kafka-clients-1.1.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="AbstractOptions" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.kafka:kafka-clients:1.1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="kafka-clients-1.1.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminClient" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.kafka:kafka-clients:1.1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="kafka-clients-1.1.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="DescribeClusterOptions" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.kafka:kafka-clients:1.1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="kafka-clients-1.1.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="KafkaAdminClient" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.kafka:kafka-clients:1.1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="kafka-clients-1.1.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="NewTopic" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.kafka:kafka-clients:1.1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="kafka-clients-1.1.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.kafka:kafka-clients:1.1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="kafka-clients-1.1.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="Node" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.kafka:kafka-clients:1.1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="kafka-clients-1.1.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="internals" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.kafka:kafka-clients:1.1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="kafka-clients-1.1.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="internals" type="462c0819:PsiDirectoryNode" />
+              <item name="KafkaFutureImpl" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.kafka:kafka-clients:1.1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="kafka-clients-1.1.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="authenticator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.kafka:kafka-clients:1.1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="kafka-clients-1.1.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="authenticator" type="462c0819:PsiDirectoryNode" />
+              <item name="SaslClientAuthenticator" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.kafka:kafka_2.11:1.1.0" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.kafka:kafka_2.11:1.1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="kafka_2.11-1.1.0.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.kafka:kafka_2.11:1.1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="kafka_2.11-1.1.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.kafka:kafka_2.11:1.1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="kafka_2.11-1.1.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminUtils" type="1a9f42e2:ClassTreeNode" />
             </path>
           </expand>
           <select />
@@ -1634,7 +1660,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TmProductDataDaoTest.testSelectById">
+  <component name="RunManager" selected="JUnit.KafkaUtilsTest.testKafka">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -1669,31 +1695,38 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="cluster-analysis [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <configuration name="KafkaUtilsTest.testKafka" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="cluster-analysis-worker_test~1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="kafka" />
+      <option name="MAIN_CLASS_NAME" value="kafka.KafkaUtilsTest" />
+      <option name="METHOD_NAME" value="testKafka" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration name="TmProductDataDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="cluster-analysis-worker_test~1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TmProductDataDaoTest" />
+      <option name="PACKAGE_NAME" value="dao" />
+      <option name="MAIN_CLASS_NAME" value="dao.TmProductDataDaoTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -1712,8 +1745,8 @@
       <module name="cluster-analysis-worker_test~1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TmProductDataDaoTest" />
+      <option name="PACKAGE_NAME" value="dao" />
+      <option name="MAIN_CLASS_NAME" value="dao.TmProductDataDaoTest" />
       <option name="METHOD_NAME" value="testSelectById" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -1808,19 +1841,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.Main" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.BaseTest" />
-      <item index="2" class="java.lang.String" itemvalue="Gradle.cluster-analysis [clean]" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="4" class="java.lang.String" itemvalue="Spring Boot.Main (1)" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.TmProductDataDaoTest.testSelectById" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.TmProductDataDaoTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="3" class="java.lang.String" itemvalue="Spring Boot.Main (1)" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TmProductDataDaoTest.testSelectById" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.TmProductDataDaoTest" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.KafkaUtilsTest.testKafka" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TmProductDataDaoTest.testSelectById" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TmProductDataDaoTest" />
-        <item index="2" class="java.lang.String" itemvalue="Spring Boot.Main (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="4" class="java.lang.String" itemvalue="Gradle.cluster-analysis [clean]" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.KafkaUtilsTest.testKafka" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TmProductDataDaoTest.testSelectById" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TmProductDataDaoTest" />
+        <item index="3" class="java.lang.String" itemvalue="Spring Boot.Main (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -1851,7 +1884,8 @@
       <workItem from="1526305973576" duration="8084000" />
       <workItem from="1526459857986" duration="6000" />
       <workItem from="1526466675265" duration="8240000" />
-      <workItem from="1526483968937" duration="2985000" />
+      <workItem from="1526483968937" duration="4935000" />
+      <workItem from="1526489928296" duration="19669000" />
     </task>
     <task id="LOCAL-00001" summary="clustering algorithm">
       <created>1525663401808</created>
@@ -1881,43 +1915,50 @@
       <option name="project" value="LOCAL" />
       <updated>1526296914931</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="mybatis and datasource">
+      <created>1526487227086</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1526487227086</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TmProductDataDaoTest - 2018.05.16 at 20h 19m 49s.xml">
-      <configuration name="TmProductDataDaoTest" configurationId="JUnit" />
+    <history-entry file="KafkaUtilsTest_testKafka - 2018.05.17 at 21h 40m 11s.xml">
+      <configuration name="KafkaUtilsTest.testKafka" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TmProductDataDaoTest_testSelectById - 2018.05.16 at 20h 19m 16s.xml">
-      <configuration name="TmProductDataDaoTest.testSelectById" configurationId="JUnit" />
+    <history-entry file="KafkaUtilsTest_testKafka - 2018.05.17 at 21h 42m 43s.xml">
+      <configuration name="KafkaUtilsTest.testKafka" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TmProductDataDaoTest_testSelectById - 2018.05.16 at 20h 20m 48s.xml">
-      <configuration name="TmProductDataDaoTest.testSelectById" configurationId="JUnit" />
+    <history-entry file="KafkaUtilsTest_testKafka - 2018.05.17 at 21h 54m 24s.xml">
+      <configuration name="KafkaUtilsTest.testKafka" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TmProductDataDaoTest_testSelectById - 2018.05.16 at 20h 24m 55s.xml">
-      <configuration name="TmProductDataDaoTest.testSelectById" configurationId="JUnit" />
+    <history-entry file="KafkaUtilsTest_testKafka - 2018.05.17 at 21h 58m 37s.xml">
+      <configuration name="KafkaUtilsTest.testKafka" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TmProductDataDaoTest_testSelectById - 2018.05.16 at 20h 26m 51s.xml">
-      <configuration name="TmProductDataDaoTest.testSelectById" configurationId="JUnit" />
+    <history-entry file="KafkaUtilsTest_testKafka - 2018.05.17 at 22h 00m 56s.xml">
+      <configuration name="KafkaUtilsTest.testKafka" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TmProductDataDaoTest_testSelectById - 2018.05.16 at 20h 27m 13s.xml">
-      <configuration name="TmProductDataDaoTest.testSelectById" configurationId="JUnit" />
+    <history-entry file="KafkaUtilsTest_testKafka - 2018.05.17 at 22h 48m 39s.xml">
+      <configuration name="KafkaUtilsTest.testKafka" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TmProductDataDaoTest_testSelectById - 2018.05.16 at 20h 29m 11s.xml">
-      <configuration name="TmProductDataDaoTest.testSelectById" configurationId="JUnit" />
+    <history-entry file="KafkaUtilsTest_testKafka - 2018.05.18 at 00h 30m 29s.xml">
+      <configuration name="KafkaUtilsTest.testKafka" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TmProductDataDaoTest_testSelectById - 2018.05.16 at 20h 31m 41s.xml">
-      <configuration name="TmProductDataDaoTest.testSelectById" configurationId="JUnit" />
+    <history-entry file="KafkaUtilsTest_testKafka - 2018.05.18 at 00h 31m 05s.xml">
+      <configuration name="KafkaUtilsTest.testKafka" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TmProductDataDaoTest_testSelectById - 2018.05.16 at 20h 32m 24s.xml">
-      <configuration name="TmProductDataDaoTest.testSelectById" configurationId="JUnit" />
+    <history-entry file="KafkaUtilsTest_testKafka - 2018.05.18 at 00h 31m 53s.xml">
+      <configuration name="KafkaUtilsTest.testKafka" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TmProductDataDaoTest_testSelectById - 2018.05.16 at 20h 32m 53s.xml">
-      <configuration name="TmProductDataDaoTest.testSelectById" configurationId="JUnit" />
+    <history-entry file="KafkaUtilsTest_testKafka - 2018.05.18 at 00h 41m 25s.xml">
+      <configuration name="KafkaUtilsTest.testKafka" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51634000" />
+    <option name="totallyTimeSpent" value="73253000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1929,34 +1970,33 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1928" y="-315" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38521835" sideWeight="0.5021482" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3549832" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18474758" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5643897" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5520717" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37290034" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37290034" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.49785176" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44008958" sideWeight="0.49785176" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.49785176" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46472564" sideWeight="0.49785176" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26651737" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23899034" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24221267" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20247047" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -1965,8 +2005,8 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7368421" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3549832" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -2010,91 +2050,25 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/cluster-analysis-worker/src/test/java/kafka/KafkaUtilsTest.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cluster-analysis-worker/src/test/java/kafka/KafkaUtilsTest.java</url>
+          <line>108</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cluster-analysis-common/src/main/java/cluster/Birch/CF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-557">
-          <caret line="30" column="23" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/gradle/gradle-4.6/lib/gradle-core-api-4.6.jar!/org/gradle/api/Project.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="56" column="12" lean-forward="false" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluster-analysis-webapp/src/main/application.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluster-analysis-webapp/build/reports/project/dependencies/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluster-analysis-webapp/build/reports/project/dependencies/root.cluster-analysis-webapp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluster-analysis-webapp/build/reports/project/properties.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2625">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluster-analysis-common/build/reports/project/dependencies.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/2.0.1.RELEASE/6256c81ff81377b54b95e89817b93ba408513918/spring-boot-2.0.1.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="758" column="0" lean-forward="false" selection-start-line="758" selection-start-column="0" selection-end-line="758" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluster-analysis-webapp/build/reports/project/dependencies.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="288" column="44" lean-forward="false" selection-start-line="288" selection-start-column="20" selection-end-line="288" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluster-analysis-webapp/build/reports/build.gradle" />
-    <entry file="file://$PROJECT_DIR$/cluster-analysis-common/src/main/java/cluster/Birch/BirchClusterIml.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-900">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluster-analysis-worker/src/main/java/kafka/LocalSubmitter.java" />
-    <entry file="file://$PROJECT_DIR$/cluster-analysis-worker/src/main/java/kafka/TridentKafkaWordCount.java" />
     <entry file="file://$PROJECT_DIR$/cluster-analysis-worker/src/main/java/kafka/KafkaProducerTopology.java" />
     <entry file="file://$PROJECT_DIR$/cluster-analysis-worker/src/main/java/kafka/TridentKafkaClientWordCountNamedTopics.java" />
     <entry file="file://$PROJECT_DIR$/cluster-analysis-worker/src/main/java/kafka/TridentKafkaTopology.java" />
@@ -2235,7 +2209,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="512">
           <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2243,7 +2216,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="10" column="59" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2259,49 +2231,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libraries.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-100">
-          <caret line="32" column="22" lean-forward="false" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="72" column="39" lean-forward="false" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluster-analysis-worker/src/test/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="40" lean-forward="false" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluster-analysis-worker/src/main/java/service/impl/SimulateServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluster-analysis-worker/src/main/java/kafka/MessageProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2309,23 +2238,514 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1325">
+          <caret line="53" column="43" lean-forward="false" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster-analysis-worker/src/test/java/dao/TmProductDataDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka_2.11/1.1.0/fb76e8b7d3b9fb95307f25fce7bf2688960aadcb/kafka_2.11-1.1.0.jar!/kafka/admin/AdminOperationException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <marker date="1526487740382" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1526487740382" expanded="true" signature="166:1392" ph="@{...}" />
+            <marker date="1526487740382" expanded="false" signature="1515:1526" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="1544:1550" ph=" }" />
+            <marker date="1526487740382" expanded="true" signature="1618:1682" ph="{...}" />
+            <marker date="1526487740382" expanded="false" signature="1735:1746" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="1778:1784" ph=" }" />
+            <marker date="1526487740382" expanded="false" signature="1832:1843" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="1870:1876" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka_2.11/1.1.0/fb76e8b7d3b9fb95307f25fce7bf2688960aadcb/kafka_2.11-1.1.0.jar!/kafka/admin/AdminClient$.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="34" column="19" lean-forward="false" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka_2.11/1.1.0/fb76e8b7d3b9fb95307f25fce7bf2688960aadcb/kafka_2.11-1.1.0.jar!/kafka/admin/AdminClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="100" column="13" lean-forward="false" selection-start-line="100" selection-start-column="13" selection-end-line="100" selection-end-column="13" />
+          <folding>
+            <marker date="1526487740382" expanded="true" signature="0:104" ph="/.../" />
+            <marker date="1526487740382" expanded="true" signature="4312:28700" ph="@{...}" />
+            <marker date="1526487740382" expanded="false" signature="29446:29457" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="29498:29504" ph=" }" />
+            <marker date="1526487740382" expanded="false" signature="29563:29574" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="29615:29621" ph=" }" />
+            <marker date="1526487740382" expanded="false" signature="29676:29687" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="29728:29734" ph=" }" />
+            <marker date="1526487740382" expanded="true" signature="29801:29873" ph="{...}" />
+            <marker date="1526487740382" expanded="false" signature="29919:29930" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="29975:29981" ph=" }" />
+            <marker date="1526487740382" expanded="false" signature="30038:30049" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="30101:30107" ph=" }" />
+            <marker date="1526487740382" expanded="false" signature="30154:30165" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="30217:30223" ph=" }" />
+            <marker date="1526487740382" expanded="false" signature="30274:30285" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="30341:30347" ph=" }" />
+            <marker date="1526487740382" expanded="false" signature="30395:30406" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="30459:30465" ph=" }" />
+            <marker date="1526487740382" expanded="false" signature="30517:30528" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="30585:30591" ph=" }" />
+            <marker date="1526487740382" expanded="false" signature="30642:30653" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="30709:30715" ph=" }" />
+            <marker date="1526487740382" expanded="true" signature="30781:30867" ph="{...}" />
+            <marker date="1526487740382" expanded="false" signature="30916:30927" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="30981:30987" ph=" }" />
+            <marker date="1526487740382" expanded="false" signature="31039:31050" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="31107:31113" ph=" }" />
+            <marker date="1526487740382" expanded="true" signature="31185:31520" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="31602:31957" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="31998:32259" ph="{...}" />
+            <marker date="1526487740382" expanded="false" signature="32287:32298" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="32360:32366" ph=" }" />
+            <marker date="1526487740382" expanded="false" signature="32396:32407" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="32428:32434" ph=" }" />
+            <marker date="1526487740382" expanded="false" signature="32476:32487" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="32507:32513" ph=" }" />
+            <marker date="1526487740382" expanded="true" signature="32546:32592" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="32640:32696" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="32743:32782" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="32853:32895" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="32933:32983" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="33021:33071" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="33118:33157" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="33228:33270" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="33316:33354" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="33424:33465" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="33511:33549" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="33619:33660" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="33707:33746" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="33817:33859" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="33906:33945" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="34016:34058" ph="{...}" />
+            <marker date="1526487740382" expanded="false" signature="34082:34093" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="34110:34116" ph=" }" />
+            <marker date="1526487740382" expanded="false" signature="34151:34162" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="34191:34197" ph=" }" />
+            <marker date="1526487740382" expanded="false" signature="34231:34242" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="34269:34275" ph=" }" />
+            <marker date="1526487740382" expanded="false" signature="34318:34329" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="34348:34354" ph=" }" />
+            <marker date="1526487740382" expanded="false" signature="34396:34407" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="34436:34442" ph=" }" />
+            <marker date="1526487740382" expanded="false" signature="34472:34483" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="34503:34509" ph=" }" />
+            <marker date="1526487740382" expanded="false" signature="34551:34562" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="34581:34587" ph=" }" />
+            <marker date="1526487740382" expanded="false" signature="34669:34680" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="34707:34713" ph=" }" />
+            <marker date="1526487740382" expanded="false" signature="34753:34764" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="34790:34796" ph=" }" />
+            <marker date="1526487740382" expanded="true" signature="34926:35328" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="35452:38324" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="35592:37855" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="35864:37452" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="36278:37145" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="36470:36754" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="36791:37119" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="37170:37410" ph="{...}" />
+            <marker date="1526487740382" expanded="false" signature="37307:37342" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="37354:37384" ph=" }" />
+            <marker date="1526487740382" expanded="true" signature="37477:37841" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="38390:40385" ph="{...}" />
+            <marker date="1526487740382" expanded="false" signature="40430:40441" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="40451:40457" ph=" }" />
+            <marker date="1526487740382" expanded="true" signature="40512:41214" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="40912:41139" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="41033:41129" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="41270:41661" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="41694:41985" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="42026:42958" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="42432:42793" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="42543:42779" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="43018:44811" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="43102:44704" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="43243:43410" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="43478:44503" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="43710:44112" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="43837:44090" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="44137:44357" ph="{...}" />
+            <marker date="1526487740382" expanded="false" signature="44266:44297" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="44309:44335" ph=" }" />
+            <marker date="1526487740382" expanded="true" signature="44524:44694" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="44879:45947" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="44950:45939" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="45092:45738" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="45160:45722" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="45299:45457" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="45486:45704" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="45759:45929" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="46005:46129" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="46195:46709" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="46278:46701" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="46401:46500" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="46521:46691" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="46792:47362" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="47436:48895" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="48140:48781" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="48317:48767" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="48967:50447" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="49051:50340" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="49193:50139" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="49379:50122" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="49556:49803" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="49832:50104" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="50160:50330" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="50578:59950" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="50864:51046" ph="{...}" />
+            <marker date="1526487740382" expanded="false" signature="50984:51003" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="51022:51036" ph=" }" />
+            <marker date="1526487740382" expanded="true" signature="51408:51769" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="51519:51755" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="51846:52130" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="51999:52120" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="52549:52849" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="52710:52835" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="53342:53816" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="53534:53798" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="54022:54329" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="54174:54311" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="54430:54739" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="54596:54721" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="54838:59176" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="55064:58911" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="55425:55717" ph="{...}" />
+            <marker date="1526487740382" expanded="false" signature="55573:55612" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="55653:55687" ph=" }" />
+            <marker date="1526487740382" expanded="true" signature="56183:58731" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="56414:57419" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="56748:57157" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="56951:57119" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="57577:58278" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="57688:58057" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="57880:58019" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="58319:58701" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="58940:59158" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="59318:59622" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="59470:59604" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="60010:60135" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="60205:60345" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="60435:61155" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="61261:64495" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="61755:62188" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="61866:62174" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="62551:64101" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="62755:63814" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="63839:64087" ph="{...}" />
+            <marker date="1526487740382" expanded="false" signature="64546:64557" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="64567:64573" ph=" }" />
+            <marker date="1526487740382" expanded="true" signature="64683:65464" ph="{...}" />
+            <marker date="1526487740382" expanded="false" signature="65505:65516" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="65527:65533" ph=" }" />
+            <marker date="1526487740382" expanded="true" signature="65619:66027" ph="{...}" />
+            <marker date="1526487740382" expanded="false" signature="66067:66078" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="66089:66095" ph=" }" />
+            <marker date="1526487740382" expanded="true" signature="66182:66594" ph="{...}" />
+            <marker date="1526487740382" expanded="false" signature="66635:66646" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="66657:66663" ph=" }" />
+            <marker date="1526487740382" expanded="true" signature="66757:67391" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="67466:72992" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="67810:70364" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="68029:70043" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="70064:70354" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="70447:72951" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="70624:72704" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="71216:72544" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="71423:72185" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="72218:72522" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="72725:72941" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="73018:73623" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="73192:73397" ph="{...}" />
+            <marker date="1526487740382" expanded="false" signature="73302:73325" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="73365:73383" ph=" }" />
+            <marker date="1526487740382" expanded="true" signature="73422:73604" ph="{...}" />
+            <marker date="1526487740382" expanded="false" signature="73537:73560" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="73572:73590" ph=" }" />
+            <marker date="1526487740382" expanded="true" signature="73743:74492" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="73831:74484" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="74059:74221" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="74242:74474" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="74571:74701" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="74784:76289" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="76374:76855" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="76993:79365" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="77408:79313" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="77440:79112" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="77766:78035" ph="{...}" />
+            <marker date="1526487740382" expanded="false" signature="77900:77935" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="77979:78009" ph=" }" />
+            <marker date="1526487740382" expanded="true" signature="78060:78300" ph="{...}" />
+            <marker date="1526487740382" expanded="false" signature="78197:78232" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="78244:78274" ph=" }" />
+            <marker date="1526487740382" expanded="true" signature="78568:79019" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="78729:78997" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="79133:79303" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="79426:79657" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="79476:79651" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="79818:80658" ph="{...}" />
+            <marker date="1526487740382" expanded="false" signature="79858:79873" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="79898:79908" ph=" }" />
+            <marker date="1526487740382" expanded="true" signature="80041:80144" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="80263:80425" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="80461:80652" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="80726:86885" ph="{...}" />
+            <marker date="1526487740382" expanded="false" signature="80933:80948" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="80971:80981" ph=" }" />
+            <marker date="1526487740382" expanded="false" signature="81015:81030" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="81051:81061" ph=" }" />
+            <marker date="1526487740382" expanded="false" signature="81091:81106" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="81123:81133" ph=" }" />
+            <marker date="1526487740382" expanded="false" signature="81183:81198" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="81221:81231" ph=" }" />
+            <marker date="1526487740382" expanded="true" signature="81363:81509" ph="{...}" />
+            <marker date="1526487740382" expanded="false" signature="81549:81564" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="81589:81599" ph=" }" />
+            <marker date="1526487740382" expanded="false" signature="81639:81654" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="81677:81687" ph=" }" />
+            <marker date="1526487740382" expanded="false" signature="81727:81742" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="81761:81771" ph=" }" />
+            <marker date="1526487740382" expanded="false" signature="81825:81840" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="81865:81875" ph=" }" />
+            <marker date="1526487740382" expanded="false" signature="81914:81929" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="81954:81964" ph=" }" />
+            <marker date="1526487740382" expanded="false" signature="81999:82014" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="82023:82033" ph=" }" />
+            <marker date="1526487740382" expanded="true" signature="82081:82656" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="82708:82802" ph="{...}" />
+            <marker date="1526487740382" expanded="false" signature="82847:82862" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="82912:82922" ph=" }" />
+            <marker date="1526487740382" expanded="true" signature="82954:83037" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="83072:83155" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="83199:86387" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="86486:86879" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="86964:90828" ph="{...}" />
+            <marker date="1526487740382" expanded="false" signature="87081:87096" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="87121:87131" ph=" }" />
+            <marker date="1526487740382" expanded="false" signature="87165:87180" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="87198:87208" ph=" }" />
+            <marker date="1526487740382" expanded="true" signature="87298:87386" ph="{...}" />
+            <marker date="1526487740382" expanded="false" signature="87424:87439" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="87466:87476" ph=" }" />
+            <marker date="1526487740382" expanded="false" signature="87519:87534" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="87554:87564" ph=" }" />
+            <marker date="1526487740382" expanded="false" signature="87603:87618" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="87647:87657" ph=" }" />
+            <marker date="1526487740382" expanded="false" signature="87692:87707" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="87716:87726" ph=" }" />
+            <marker date="1526487740382" expanded="true" signature="87774:88200" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="88252:88346" ph="{...}" />
+            <marker date="1526487740382" expanded="false" signature="88391:88406" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="88460:88470" ph=" }" />
+            <marker date="1526487740382" expanded="true" signature="88502:88744" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="88779:88862" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="88906:90614" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="90687:90822" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="90977:91815" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="91065:91128" ph="{...}" />
+            <marker date="1526487740382" expanded="false" signature="91168:91183" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="91212:91222" ph=" }" />
+            <marker date="1526487740382" expanded="true" signature="91313:91401" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="91497:91652" ph="{...}" />
+            <marker date="1526487740382" expanded="false" signature="91690:91705" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="91720:91730" ph=" }" />
+            <marker date="1526487740382" expanded="false" signature="91769:91784" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="91799:91809" ph=" }" />
+            <marker date="1526487740382" expanded="true" signature="92005:92941" ph="{...}" />
+            <marker date="1526487740382" expanded="false" signature="92045:92060" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="92090:92100" ph=" }" />
+            <marker date="1526487740382" expanded="true" signature="92268:92387" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="92530:92703" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="92744:92935" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="93014:99439" ph="{...}" />
+            <marker date="1526487740382" expanded="false" signature="93246:93261" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="93279:93289" ph=" }" />
+            <marker date="1526487740382" expanded="false" signature="93333:93348" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="93379:93389" ph=" }" />
+            <marker date="1526487740382" expanded="false" signature="93459:93474" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="93496:93506" ph=" }" />
+            <marker date="1526487740382" expanded="false" signature="93541:93556" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="93580:93590" ph=" }" />
+            <marker date="1526487740382" expanded="true" signature="93757:93924" ph="{...}" />
+            <marker date="1526487740382" expanded="false" signature="93964:93979" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="93999:94009" ph=" }" />
+            <marker date="1526487740382" expanded="false" signature="94049:94064" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="94097:94107" ph=" }" />
+            <marker date="1526487740382" expanded="false" signature="94182:94197" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="94221:94231" ph=" }" />
+            <marker date="1526487740382" expanded="false" signature="94269:94284" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="94310:94320" ph=" }" />
+            <marker date="1526487740382" expanded="false" signature="94359:94374" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="94404:94414" ph=" }" />
+            <marker date="1526487740382" expanded="false" signature="94449:94464" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="94473:94483" ph=" }" />
+            <marker date="1526487740382" expanded="true" signature="94531:95117" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="95169:95263" ph="{...}" />
+            <marker date="1526487740382" expanded="false" signature="95308:95323" ph=" { " />
+            <marker date="1526487740382" expanded="false" signature="95378:95388" ph=" }" />
+            <marker date="1526487740382" expanded="true" signature="95420:95503" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="95538:95621" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="95665:98903" ph="{...}" />
+            <marker date="1526487740382" expanded="true" signature="99018:99433" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka_2.11/1.1.0/fb76e8b7d3b9fb95307f25fce7bf2688960aadcb/kafka_2.11-1.1.0.jar!/kafka/admin/AdminUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1082">
+          <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka-clients/1.1.0/259e3f93213831dfb1b65ac20b3e3a945f462818/kafka-clients-1.1.0-sources.jar!/org/apache/kafka/common/security/authenticator/SaslClientAuthenticator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-971">
+          <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cluster-analysis-worker/src/test/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="812">
-          <caret line="34" column="11" lean-forward="true" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+        <state relative-caret-position="400">
+          <caret line="16" column="44" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cluster-analysis-worker/src/test/java/TmProductDataDaoTest.java">
+    <entry file="file://$PROJECT_DIR$/cluster-analysis-worker/src/test/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        <state relative-caret-position="325">
+          <caret line="13" column="70" lean-forward="false" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="70" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster-analysis-worker/src/main/java/kafka/MessageProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka-clients/1.1.0/259e3f93213831dfb1b65ac20b3e3a945f462818/kafka-clients-1.1.0-sources.jar!/org/apache/kafka/clients/admin/AbstractOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka-clients/1.1.0/259e3f93213831dfb1b65ac20b3e3a945f462818/kafka-clients-1.1.0-sources.jar!/org/apache/kafka/clients/admin/DescribeClusterOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka-clients/1.1.0/259e3f93213831dfb1b65ac20b3e3a945f462818/kafka-clients-1.1.0-sources.jar!/org/apache/kafka/common/internals/KafkaFutureImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="157" column="0" lean-forward="false" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka-clients/1.1.0/259e3f93213831dfb1b65ac20b3e3a945f462818/kafka-clients-1.1.0-sources.jar!/org/apache/kafka/clients/admin/KafkaAdminClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="1376" column="0" lean-forward="false" selection-start-line="1376" selection-start-column="0" selection-end-line="1376" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka-clients/1.1.0/259e3f93213831dfb1b65ac20b3e3a945f462818/kafka-clients-1.1.0-sources.jar!/org/apache/kafka/common/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka-clients/1.1.0/259e3f93213831dfb1b65ac20b3e3a945f462818/kafka-clients-1.1.0-sources.jar!/org/apache/kafka/clients/admin/AdminClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="211" column="0" lean-forward="false" selection-start-line="211" selection-start-column="0" selection-end-line="211" selection-end-column="0" />
+          <folding>
+            <element signature="e#8886#8887#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster-analysis-worker/src/test/java/kafka/KafkaUtilsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="125" column="5" lean-forward="true" selection-start-line="36" selection-start-column="4" selection-end-line="125" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka-clients/1.1.0/259e3f93213831dfb1b65ac20b3e3a945f462818/kafka-clients-1.1.0-sources.jar!/org/apache/kafka/clients/admin/NewTopic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="42" column="51" lean-forward="true" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster-analysis-worker/src/main/java/kafka/KafkaUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="23" column="76" lean-forward="false" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster-analysis-worker/src/main/java/service/impl/SimulateServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
