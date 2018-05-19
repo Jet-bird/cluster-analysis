@@ -1,6 +1,6 @@
 package kafka;
 
-import help.BaseTest;
+import service.impl.BaseTest;
 import org.apache.kafka.clients.admin.*;
 import org.apache.kafka.common.KafkaFuture;
 import org.apache.kafka.common.Node;
@@ -14,7 +14,7 @@ import java.util.concurrent.ExecutionException;
 @EnableAutoConfiguration
 public class KafkaUtilsTest extends BaseTest {
 
-    private static final String TEST_TOPIC = "test";
+    private static final String TEST_TOPIC = "test0";
 
     @Test
     public void testKafka(){

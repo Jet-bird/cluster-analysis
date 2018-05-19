@@ -113,7 +113,7 @@ public class KafkaUtils {
      * create multiple sample topics
      * @param client
      */
-    private static void createTopics(AdminClient client,String topicName) throws ExecutionException, InterruptedException {
+    public static void createTopics(AdminClient client,String topicName) throws ExecutionException, InterruptedException {
         NewTopic newTopic = new NewTopic(topicName, 1, (short)1);
         CreateTopicsResult ret = client.createTopics(Arrays.asList(newTopic));
         ret.all().get();

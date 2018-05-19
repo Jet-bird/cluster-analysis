@@ -41,4 +41,19 @@ pagehelper:
 
 kafka:
     host: localhost:9092
-    simulateServiceTopicName: test0
+    simulateServiceTopicName: test
+
+zookeeper:
+    host:
+     localhost:2181
+
+stormKafka:
+    kafka:
+        host: localhost:9092
+        simulateServiceTopicName: test
+        stateUpdateIntervalMs : 2000
+        socketTimeoutMs: 10000
+        fetchMaxWait: 1000
+        metricsTimeBucketSizeInSecs: 60
+
+

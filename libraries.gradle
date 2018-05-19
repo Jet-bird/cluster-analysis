@@ -35,6 +35,7 @@ ext{
            springBoot_tomcat       : "org.springframework.boot:spring-boot-starter-tomcat:${springBootVersion}",
            springBoot_jdbc         : "org.springframework.boot:spring-boot-starter-jdbc:${springBootVersion}",
            springBoot_test         : "org.springframework.boot:spring-boot-starter-test:${springBootVersion}",
+           springBoot_config       : "org.springframework.boot:spring-boot-configuration-processor:${springBootVersion}",
            mybatisSpringBoot       : "org.mybatis.spring.boot:mybatis-spring-boot-starter:${mybatisSpringBootVersion}",
            druid                   : "com.alibaba:druid:${druidVersion}",
            mysqlConnector          : "mysql:mysql-connector-java:${mysqlConnectorVersion}",

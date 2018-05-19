@@ -13,7 +13,7 @@ buildscript {
     }
 }
 
-configurations.all{
+configurations.all {
     resolutionStrategy {
         failOnVersionConflict()
     }
@@ -42,61 +42,77 @@ subprojects {
 
 
 
-    project(':cluster-analysis-common') {
-        dependencies{
-            //storm包引入不完整，手动下载
-            compile (libraries.storm_core){
-                exclude group :'org.apache.logging.log4j'
-            }
-            compile libraries.storm_kafka
-            compile libraries.storm_kafka_client
-            compile libraries.kafka
-            compile libraries.kafka_clients
-            compile libraries.fastJson
-            compile libraries.lombok
-            compile libraries.bean_mapper
-            compile libraries.springBoot_test
-            compile libraries.springKafka
+project(':cluster-analysis-common') {
+    dependencies {
+        //storm包引入不完整，手动下载
+        compile(libraries.storm_core)
+        compile libraries.storm_kafka
+        compile libraries.storm_kafka_client
+        compile libraries.kafka
+        compile libraries.kafka_clients
+        compile libraries.fastJson
+        compile libraries.lombok
+        compile libraries.bean_mapper
+
+    }
+}
+
+
+project(':cluster-analysis-worker') {
+
+    configurations.all {
+        resolutionStrategy {
+//            force 'org.apache.logging.log4j:log4j-to-slf4j:2.8.2'
         }
     }
 
-    project(':cluster-analysis-topology') {
-        dependencies {
-            compile project(':cluster-analysis-common')
+    dependencies {
+//        compile project(':cluster-analysis-common'){
+//            exclude  group:'org.apache.storm'
+//        }
 //            compile libraries.springFramework
-            compile libraries.springBoot
-            compile libraries.springBoot_tomcat
-            compile libraries.springBoot_jdbc
-            compile libraries.druid
-            compile libraries.mysqlConnector
-            compile libraries.mybatisSpringBoot
-            compile libraries.log4j_api
-            compile libraries.log4j_core
-            compile libraries.junit_platform_common
-            compile libraries.junit_platform_console
-            compile libraries.junit_platform_engine
-            compile libraries.junit_platform_launcher
-            compile libraries.junit_platform_runner
-            compile libraries.junit_jupiter_api
-            compile libraries.junit_jupiter_params
-            compile libraries.apiguardian
-            compile libraries.opentest4j
-        }
+        compile libraries.kafka
+        compile libraries.kafka_clients
+        compile libraries.fastJson
+        compile libraries.lombok
+        compile libraries.bean_mapper
+        compile libraries.springBoot
+        compile libraries.springBoot_test
+        compile libraries.springKafka
+        compile libraries.springBoot_config
+        compile libraries.springBoot_tomcat
+        compile libraries.springBoot_jdbc
+        compile libraries.druid
+        compile libraries.mysqlConnector
+        compile libraries.mybatisSpringBoot
+        compile libraries.log4j_api
+        compile libraries.log4j_core
+        compile libraries.junit_platform_common
+        compile libraries.junit_platform_console
+        compile libraries.junit_platform_engine
+        compile libraries.junit_platform_launcher
+        compile libraries.junit_platform_runner
+        compile libraries.junit_jupiter_api
+        compile libraries.junit_jupiter_params
+        compile libraries.apiguardian
+        compile libraries.opentest4j
     }
+}
 
-    project(':cluster-analysis-worker') {
-        dependencies{
-            compile project(':cluster-analysis-topology')
-        }
+project(':cluster-analysis-topology') {
+    dependencies {
+        compile project(':cluster-analysis-common')
     }
+}
 
-    project(':cluster-analysis-webapp') {
-        apply plugin: 'war'
 
-        dependencies{
-            compile project(':cluster-analysis-topology')
-        }
+project(':cluster-analysis-webapp') {
+    apply plugin: 'war'
+
+    dependencies {
+        compile project(':cluster-analysis-topology')
     }
+}
 
 
 
