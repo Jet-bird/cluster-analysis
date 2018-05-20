@@ -1,38 +1,48 @@
 package topology;
 
-import bolts.TopicMsgBolt;
-import lombok.Data;
+import bolts.TransInstanceFunction;
+import cluster.Kmeans.ClusterModelUpdater;
+import cluster.Kmeans.Kmeans;
 import org.apache.kafka.common.utils.Utils;
 import org.apache.storm.Config;
 import org.apache.storm.LocalCluster;
-import org.apache.storm.StormSubmitter;
-import org.apache.storm.kafka.*;
-import org.apache.storm.kafka.bolt.KafkaBolt;
-import org.apache.storm.kafka.bolt.mapper.FieldNameBasedTupleToKafkaMapper;
-import org.apache.storm.kafka.bolt.selector.DefaultTopicSelector;
+import org.apache.storm.LocalDRPC;
+import org.apache.storm.generated.AlreadyAliveException;
+import org.apache.storm.generated.AuthorizationException;
+import org.apache.storm.generated.InvalidTopologyException;
+import org.apache.storm.generated.StormTopology;
+import org.apache.storm.kafka.BrokerHosts;
+import org.apache.storm.kafka.StringScheme;
+import org.apache.storm.kafka.ZkHosts;
+import org.apache.storm.kafka.trident.OpaqueTridentKafkaSpout;
+import org.apache.storm.kafka.trident.TridentKafkaConfig;
 import org.apache.storm.spout.SchemeAsMultiScheme;
-import org.apache.storm.topology.TopologyBuilder;
+import org.apache.storm.trident.Stream;
+import org.apache.storm.trident.TridentState;
+import org.apache.storm.trident.TridentTopology;
+import org.apache.storm.trident.testing.MemoryMapState;
+import org.apache.storm.tuple.Fields;
 
 import java.util.Properties;
 
-@Data
 public class ClusterAnalysisTopology {
 
-    private int stateUpdateIntervalMs;
+    public static void main(String[] args) throws InvalidTopologyException, AuthorizationException, AlreadyAliveException {
 
-    private int socketTimeoutMs = 10000;
+        LocalCluster cluster = new LocalCluster();
+        LocalDRPC drpc = new LocalDRPC();
 
-    private int fetchMaxWait = 1000;
-
-    private int metricsTimeBucketSizeInSecs = 60;
-
-
-    public static void main(String[] args) throws Exception {
-        // 配置Zookeeper地址
         BrokerHosts brokerHosts = new ZkHosts("localhost:2181");
-        // 配置Kafka订阅的Topic，以及zookeeper中数据节点目录和名字
-        SpoutConfig spoutConfig = new SpoutConfig(brokerHosts, "test0", "", "topicMsgTopology");
-        // 配置KafkaBolt中的kafka.broker.properties
+        TridentKafkaConfig kafkaConfig = new TridentKafkaConfig(brokerHosts, "cluster_analysis");
+        kafkaConfig.scheme = new SchemeAsMultiScheme(new StringScheme());
+        OpaqueTridentKafkaSpout kafkaSpout = new OpaqueTridentKafkaSpout(kafkaConfig);
+
+        final TridentTopology tridentTopology = new TridentTopology();
+        final Stream spoutStream = tridentTopology.newStream("kafkaSpout", kafkaSpout).parallelismHint(1);
+
+        TridentState kmeansState = spoutStream.map(new TransInstanceFunction(true),new Fields("instance")).parallelismHint(1).partitionPersist(new MemoryMapState.Factory(), new Fields("instance"), new ClusterModelUpdater("kmeans", new Kmeans(3))).parallelismHint(1);
+
+        //storm config
         Config conf = new Config();
         Properties props = new Properties();
         // 配置Kafka broker地址
@@ -44,30 +54,17 @@ public class ClusterAnalysisTopology {
         props.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer");
         props.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer");
         conf.put("kafka.broker.properties", props);
+        conf.put("topic", "cluster_analysis");
 
-        // 配置KafkaBolt生成的topic
-        conf.put("topic", "test");
-        spoutConfig.scheme = new SchemeAsMultiScheme(new StringScheme());
-        TopologyBuilder builder = new TopologyBuilder();
-        builder.setSpout("msgKafkaSpout", new KafkaSpout(spoutConfig));
-        builder.setBolt("msgSentenceBolt", new TopicMsgBolt()).shuffleGrouping("msgKafkaSpout");
-        KafkaBolt bolt = new KafkaBolt()
-                .withProducerProperties(props)
-                .withTopicSelector(new DefaultTopicSelector("test"))
-                .withTupleToKafkaMapper(new FieldNameBasedTupleToKafkaMapper());
-        builder.setBolt("msgKafkaBolt", bolt);
-        if (args.length == 0) {
-            String topologyName = "kafkaTopicTopology";
-            LocalCluster cluster = new LocalCluster();
-            cluster.submitTopology(topologyName, conf, builder.createTopology());
-            Utils.sleep(100000);
-            cluster.killTopology(topologyName);
-            cluster.shutdown();
-        } else {
-            conf.setNumWorkers(1);
-            StormSubmitter.submitTopology(args[0], conf, builder.createTopology());
-        }
+        //TODO
+        tridentTopology.newDRPCStream("instance",drpc);
+
+        StormTopology stormTopology = tridentTopology.build();
+        String topologyName = "kafkaTopicTopology";
+        cluster.submitTopology(topologyName, conf, stormTopology);
+        Utils.sleep(100000000);
+        cluster.killTopology(topologyName);
+        cluster.shutdown();
     }
+
 }
-
-

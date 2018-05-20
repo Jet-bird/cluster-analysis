@@ -41,4 +41,4 @@ pagehelper:
 
 kafka:
     host: localhost:9092
-    simulateServiceTopicName: test0
+    simulateServiceTopicName: cluster_analysis

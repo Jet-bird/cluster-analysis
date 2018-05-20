@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.storm:storm-kafka:1.1.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.storm/storm-kafka/1.1.1/2d925ba27d1c46111d89a641720e5f6455a027e4/storm-kafka-1.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.storm/storm-kafka/1.1.1/7fc6de71052c68fceeb9abd908417b9873226afb/storm-kafka-1.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

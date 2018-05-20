@@ -5,33 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b264f7d-dc30-4d05-896b-2b92d040f907" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_api_2_8_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_slf4j_impl_2_8_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_zookeeper_zookeeper_3_4_10.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_configuration_processor_2_0_1_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cluster-analysis-topology/src/main/java/bolts/QueryBolt.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cluster-analysis-topology/src/main/java/bolts/TopicMsgBolt.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cluster-analysis-topology/src/main/java/topology/ClusterAnalysisTopology.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cluster-analysis-topology/src/main/java/vo/TmProductDataVO.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cluster-analysis-topology/src/test/resources/application-test.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cluster-analysis-worker/src/test/java/service/SimulateServiceImplTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_16_0_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_curator_curator_client_2_12_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_curator_curator_framework_2_12_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_storm_storm_core_1_1_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_storm_storm_kafka_1_1_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_storm_storm_kafka_client_1_1_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cluster-analysis-topology/src/main/java/bolts/TransInstanceFunction.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cluster-analysis-topology/src/main/java/bolts/TransMsgFunction.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cluster-analysis-topology/src/main/java/topology/ConsumerExampleTopology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cluster-analysis-topology/src/main/java/topology/TridentTopology.java" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle____Jetbird____cluster_analysis_webapp__1_0_SNAPSHOT__war__exploded_.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle____Jetbird____cluster_analysis_webapp__1_0_SNAPSHOT__war__exploded_.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_tx_5_0_4_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_20_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_cli_commons_cli_1_2.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__log4j_log4j_1_2_17.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jline_jline_0_9_94.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_curator_curator_client_4_0_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_curator_curator_framework_4_0_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_storm_storm_kafka_1_2_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_storm_storm_kafka_client_1_2_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_zookeeper_zookeeper_3_5_3_beta.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/cluster-analysis-common/cluster-analysis-common_main~1.iml" afterPath="$PROJECT_DIR$/.idea/modules/cluster-analysis-common/cluster-analysis-common_main~1.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/cluster-analysis-common/cluster-analysis-common_test~1.iml" afterPath="$PROJECT_DIR$/.idea/modules/cluster-analysis-common/cluster-analysis-common_test~1.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/cluster-analysis-topology/cluster-analysis-topology_main~1.iml" afterPath="$PROJECT_DIR$/.idea/modules/cluster-analysis-topology/cluster-analysis-topology_main~1.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/cluster-analysis-topology/cluster-analysis-topology_test~1.iml" afterPath="$PROJECT_DIR$/.idea/modules/cluster-analysis-topology/cluster-analysis-topology_test~1.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/cluster-analysis-webapp/cluster-analysis-webapp_main~1.iml" afterPath="$PROJECT_DIR$/.idea/modules/cluster-analysis-webapp/cluster-analysis-webapp_main~1.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/cluster-analysis-webapp/cluster-analysis-webapp_test~1.iml" afterPath="$PROJECT_DIR$/.idea/modules/cluster-analysis-webapp/cluster-analysis-webapp_test~1.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/cluster-analysis-worker/cluster-analysis-worker_main~1.iml" afterPath="$PROJECT_DIR$/.idea/modules/cluster-analysis-worker/cluster-analysis-worker_main~1.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/cluster-analysis-worker/cluster-analysis-worker_test~1.iml" afterPath="$PROJECT_DIR$/.idea/modules/cluster-analysis-worker/cluster-analysis-worker_test~1.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/cluster-analysis-common/src/main/java/help/BaseTest.java" afterPath="$PROJECT_DIR$/cluster-analysis-worker/src/main/java/service/impl/BaseTest.java" />
-      <change beforePath="$PROJECT_DIR$/cluster-analysis-worker/src/main/java/dao/TmProductDataDao.java" afterPath="$PROJECT_DIR$/cluster-analysis-worker/src/main/java/dao/TmProductDataDao.java" />
-      <change beforePath="$PROJECT_DIR$/cluster-analysis-worker/src/main/java/kafka/KafkaUtils.java" afterPath="$PROJECT_DIR$/cluster-analysis-worker/src/main/java/kafka/KafkaUtils.java" />
-      <change beforePath="$PROJECT_DIR$/cluster-analysis-worker/src/main/java/service/SimulateService.java" afterPath="$PROJECT_DIR$/cluster-analysis-worker/src/main/java/service/SimulateService.java" />
-      <change beforePath="$PROJECT_DIR$/cluster-analysis-worker/src/main/java/service/impl/SimulateServiceImpl.java" afterPath="$PROJECT_DIR$/cluster-analysis-worker/src/main/java/service/impl/SimulateServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/cluster-analysis-topology/src/main/java/bolts/TopicMsgBolt.java" afterPath="$PROJECT_DIR$/cluster-analysis-topology/src/main/java/bolts/TopicMsgBolt.java" />
+      <change beforePath="$PROJECT_DIR$/cluster-analysis-topology/src/main/java/topology/ClusterAnalysisTopology.java" afterPath="$PROJECT_DIR$/cluster-analysis-topology/src/main/java/topology/ClusterAnalysisTopology.java" />
+      <change beforePath="$PROJECT_DIR$/cluster-analysis-topology/src/main/java/vo/TmProductDataVO.java" afterPath="$PROJECT_DIR$/cluster-analysis-topology/src/main/java/vo/TmProductDataVO.java" />
       <change beforePath="$PROJECT_DIR$/cluster-analysis-worker/src/test/java/kafka/KafkaUtilsTest.java" afterPath="$PROJECT_DIR$/cluster-analysis-worker/src/test/java/kafka/KafkaUtilsTest.java" />
       <change beforePath="$PROJECT_DIR$/cluster-analysis-worker/src/test/resources/application.yml" afterPath="$PROJECT_DIR$/cluster-analysis-worker/src/test/resources/application.yml" />
       <change beforePath="$PROJECT_DIR$/libraries.gradle" afterPath="$PROJECT_DIR$/libraries.gradle" />
@@ -152,21 +154,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="ClusterAnalysisTopology.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cluster-analysis-topology/src/main/java/topology/ClusterAnalysisTopology.java">
+      <file leaf-file-name="TransInstanceFunction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cluster-analysis-topology/src/main/java/bolts/TransInstanceFunction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-452">
-              <caret line="36" column="41" lean-forward="false" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TopicMsgBolt.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cluster-analysis-topology/src/main/java/bolts/TopicMsgBolt.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="272">
+              <caret line="64" column="9" lean-forward="true" selection-start-line="62" selection-start-column="8" selection-end-line="64" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -174,71 +166,91 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CloseableUtils.java" pinned="false" current-in-tab="true">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.curator/curator-client/4.0.0/df06694be6921727208bef3788024e56cf69a99d/curator-client-4.0.0-sources.jar!/org/apache/curator/utils/CloseableUtils.java">
+      <file leaf-file-name="Canopy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cluster-analysis-common/src/main/java/cluster/Canopy/Canopy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+            <state relative-caret-position="-143">
+              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KafkaUtilsTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cluster-analysis-worker/src/test/java/kafka/KafkaUtilsTest.java">
+      <file leaf-file-name="CanopyModelUpdate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cluster-analysis-common/src/main/java/cluster/Canopy/CanopyModelUpdate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="16" column="51" lean-forward="false" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+            <state relative-caret-position="157">
+              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SimulateServiceImplTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cluster-analysis-worker/src/test/java/service/SimulateServiceImplTest.java">
+      <file leaf-file-name="ClusterModelQuery.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cluster-analysis-common/src/main/java/cluster/Kmeans/ClusterModelQuery.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+            <state relative-caret-position="182">
+              <caret line="37" column="33" lean-forward="false" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SimulateService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cluster-analysis-worker/src/main/java/service/SimulateService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimulateServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cluster-analysis-worker/src/main/java/service/impl/SimulateServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="41" column="17" lean-forward="false" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cluster-analysis-worker/src/test/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="43" column="35" lean-forward="false" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DynamicBrokersReader.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.storm/storm-kafka/1.2.1/32b9144862df33c2cfab8629959bb511e8014c84/storm-kafka-1.2.1-sources.jar!/org/apache/storm/kafka/DynamicBrokersReader.java">
+      <file leaf-file-name="BirchCluster.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cluster-analysis-common/src/main/java/cluster/Birch/BirchCluster.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="125">
-              <caret line="125" column="44" lean-forward="false" selection-start-line="125" selection-start-column="44" selection-end-line="125" selection-end-column="44" />
+              <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MinCluster.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cluster-analysis-common/src/main/java/cluster/Birch/MinCluster.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-93">
+              <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NonLeafNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cluster-analysis-common/src/main/java/cluster/Birch/NonLeafNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CanopyDriver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cluster-analysis-common/src/main/java/cluster/Canopy/CanopyDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1343">
+              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cluster.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cluster-analysis-common/src/main/java/cluster/Kmeans/Cluster.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Kmeans.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cluster-analysis-common/src/main/java/cluster/Kmeans/Kmeans.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -272,7 +284,16 @@
       <find>2000</find>
       <find>kafka</find>
       <find>logback</find>
+      <find>RandomFeaturesForClusteringSpout</find>
       <find>curator</find>
+      <find>Error Path</find>
+      <find>error</find>
+      <find>stateFactory</find>
+      <find>exception</find>
+      <find>conf</find>
+      <find>localhost</find>
+      <find>Cluster</find>
+      <find>cluster</find>
     </findStrings>
     <replaceStrings>
       <replace>org.apache</replace>
@@ -1134,10 +1155,10 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6103916244796" />
+        <entry key="$PROJECT_DIR$" value="6104147049414" />
         <entry key="$PROJECT_DIR$/build.gradle" value="1678667888" />
         <entry key="$PROJECT_DIR$/gradle.properties" value="2134766251" />
-        <entry key="$PROJECT_DIR$/libraries.gradle" value="2065847016" />
+        <entry key="$PROJECT_DIR$/libraries.gradle" value="2700470410" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="2981423629" />
       </map>
     </option>
@@ -1286,11 +1307,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cluster-analysis-common/src/main/java/core/Instance.java" />
-        <option value="$PROJECT_DIR$/cluster-analysis-common/src/main/java/cluster/Birch/TreeNode.java" />
-        <option value="$PROJECT_DIR$/cluster-analysis-common/src/main/java/help/IHelp.java" />
-        <option value="$PROJECT_DIR$/cluster-analysis-common/src/main/java/cluster/Kmeans/ClusterModelQuery.java" />
-        <option value="$PROJECT_DIR$/cluster-analysis-common/src/main/java/core/MathUtils.java" />
         <option value="$PROJECT_DIR$/cluster-analysis-common/src/main/java/cluster/Kmeans/Kmeans.java" />
         <option value="$PROJECT_DIR$/cluster-analysis-common/src/main/java/core/CountEntryInstanceCreator.java" />
         <option value="$PROJECT_DIR$/cluster-analysis-common/src/main/java/core/InstanceCreator.java" />
@@ -1319,24 +1335,29 @@
         <option value="$PROJECT_DIR$/cluster-analysis-worker/src/test/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/cluster-analysis-worker/src/main/java/kafka/KafkaUtils.java" />
         <option value="$PROJECT_DIR$/cluster-analysis-worker/src/main/java/service/SimulateService.java" />
-        <option value="$PROJECT_DIR$/libraries.gradle" />
         <option value="$PROJECT_DIR$/cluster-analysis-worker/src/main/java/dao/TmProductDataDao.java" />
         <option value="$PROJECT_DIR$/cluster-analysis-worker/src/test/java/dao/TmProductDataDaoTest.java" />
         <option value="$PROJECT_DIR$/cluster-analysis-worker/src/test/java/service/SimulateServiceImplTest.java" />
         <option value="$PROJECT_DIR$/cluster-analysis-worker/src/main/java/service/impl/SimulateServiceImpl.java" />
-        <option value="$PROJECT_DIR$/cluster-analysis-topology/src/main/java/vo/TmProductDataVO.java" />
         <option value="$PROJECT_DIR$/cluster-analysis-topology/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cluster-analysis-topology/src/test/resources/application-test.yml" />
         <option value="$PROJECT_DIR$/cluster-analysis-topology/src/main/java/spouts/KafkaSpout.java" />
         <option value="$PROJECT_DIR$/cluster-analysis-topology/src/main/java/spouts/KafkaSpoutService.java" />
-        <option value="$PROJECT_DIR$/cluster-analysis-topology/src/main/java/bolts/TopicMsgBolt.java" />
         <option value="$PROJECT_DIR$/cluster-analysis-topology/src/main/java/bolts/QueryBolt.java" />
         <option value="$PROJECT_DIR$/cluster-analysis-worker/src/main/java/service/impl/BaseTest.java" />
-        <option value="$PROJECT_DIR$/cluster-analysis-worker/src/test/java/kafka/KafkaUtilsTest.java" />
         <option value="$PROJECT_DIR$/cluster-analysis-worker/build/reports/project/dependencies.txt" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/cluster-analysis-topology/src/main/java/topology/ClusterAnalysisTopology.java" />
+        <option value="$PROJECT_DIR$/cluster-analysis-topology/src/main/java/bolts/TransFunction.java" />
+        <option value="$PROJECT_DIR$/cluster-analysis-topology/src/main/java/bolts/TopicMsgBolt.java" />
+        <option value="$PROJECT_DIR$/cluster-analysis-topology/src/main/java/vo/TmProductDataVO.java" />
+        <option value="$PROJECT_DIR$/cluster-analysis-topology/src/main/java/topology/TridentTopology.java" />
+        <option value="$PROJECT_DIR$/cluster-analysis-topology/src/main/java/topology/ConsumerExampleTopology.java" />
+        <option value="$PROJECT_DIR$/libraries.gradle" />
+        <option value="$PROJECT_DIR$/cluster-analysis-topology/src/main/java/bolts/TransMsgFunction.java" />
+        <option value="$PROJECT_DIR$/cluster-analysis-worker/src/test/java/kafka/KafkaUtilsTest.java" />
         <option value="$PROJECT_DIR$/cluster-analysis-worker/src/test/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cluster-analysis-topology/src/main/java/bolts/TransInstanceFunction.java" />
+        <option value="$PROJECT_DIR$/cluster-analysis-topology/src/main/java/topology/ClusterAnalysisTopology.java" />
       </list>
     </option>
   </component>
@@ -1470,6 +1491,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -1507,116 +1529,12 @@
             <path>
               <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
               <item name="cluster-analysis" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="cluster-analysis-common" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="help" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cluster-analysis" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="cluster-analysis-topology" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cluster-analysis" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="cluster-analysis-topology" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cluster-analysis" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="cluster-analysis-topology" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cluster-analysis" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="cluster-analysis-topology" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cluster-analysis" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="cluster-analysis-topology" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bolts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cluster-analysis" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="cluster-analysis-topology" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bolts" type="462c0819:PsiDirectoryNode" />
-              <item name="QueryBolt" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cluster-analysis" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="cluster-analysis-topology" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bolts" type="462c0819:PsiDirectoryNode" />
-              <item name="TopicMsgBolt" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cluster-analysis" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="cluster-analysis-topology" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="topology" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cluster-analysis" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="cluster-analysis-topology" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="topology" type="462c0819:PsiDirectoryNode" />
-              <item name="ClusterAnalysisTopology" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cluster-analysis" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="cluster-analysis-webapp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
               <item name="cluster-analysis" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="cluster-analysis-worker" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cluster-analysis" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="cluster-analysis-worker" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cluster-analysis" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="cluster-analysis-worker" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="reports" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cluster-analysis" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="cluster-analysis-worker" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="reports" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
@@ -1708,6 +1626,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="KafkaUtilsTest" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cluster-analysis" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cluster-analysis-worker" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1730,64 +1658,401 @@
             </path>
             <path>
               <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cluster-analysis" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="logs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
               <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.apache.curator:curator-client:4.0.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.apache.curator:curator-client:4.0.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="curator-client-4.0.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.apache.curator:curator-client:4.0.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="curator-client-4.0.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.apache.curator:curator-client:4.0.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="curator-client-4.0.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="CloseableUtils" type="1a9f42e2:ClassTreeNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="ArrayList" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.apache.storm:storm-kafka:1.2.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="Gradle: com.alibaba:fastjson:1.2.47" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.apache.storm:storm-kafka:1.2.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="storm-kafka-1.2.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Gradle: com.alibaba:fastjson:1.2.47" type="70bed36:NamedLibraryElementNode" />
+              <item name="fastjson-1.2.47.jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.apache.storm:storm-kafka:1.2.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="storm-kafka-1.2.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Gradle: org.apache.storm:storm-core:1.1.1" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.storm:storm-core:1.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="storm-core-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.storm:storm-core:1.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="storm-core-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="daemon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.storm:storm-core:1.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="storm-core-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="daemon" type="462c0819:PsiDirectoryNode" />
+              <item name="executor$fn__5030$tuple_action_fn__5032" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.storm:storm-core:1.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="storm-core-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="zookeeper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.storm:storm-core:1.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="storm-core-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="zookeeper" type="462c0819:PsiDirectoryNode" />
+              <item name="ClientCnxn" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.storm:storm-core:1.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="storm-core-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="trident" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.storm:storm-core:1.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="storm-core-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="trident" type="462c0819:PsiDirectoryNode" />
+              <item name="TridentTopology" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.storm:storm-core:1.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="storm-core-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.storm:storm-core:1.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="storm-core-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="MapFunctionExecutor" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.storm:storm-core:1.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="storm-core-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="planner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.storm:storm-core:1.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="storm-core-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="planner" type="462c0819:PsiDirectoryNode" />
+              <item name="SubtopologyBolt" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.storm:storm-core:1.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="storm-core-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="planner" type="462c0819:PsiDirectoryNode" />
+              <item name="SubtopologyBolt" type="1a9f42e2:ClassTreeNode" />
+              <item name="InitialReceiver" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.storm:storm-core:1.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="storm-core-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="processor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.storm:storm-core:1.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="storm-core-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="processor" type="462c0819:PsiDirectoryNode" />
+              <item name="MapProcessor" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.storm:storm-core:1.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="storm-core-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="processor" type="462c0819:PsiDirectoryNode" />
+              <item name="PartitionPersistProcessor" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.storm:storm-core:1.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="storm-core-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="topology" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.storm:storm-core:1.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="storm-core-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="topology" type="462c0819:PsiDirectoryNode" />
+              <item name="TridentBoltExecutor" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.storm:storm-core:1.2.1" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.storm:storm-core:1.2.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="storm-core-1.2.1.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.storm:storm-core:1.2.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="storm-core-1.2.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="zookeeper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.storm:storm-core:1.2.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="storm-core-1.2.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="zookeeper" type="462c0819:PsiDirectoryNode" />
+              <item name="ClientCnxn" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.storm:storm-core:1.2.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="storm-core-1.2.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.storm:storm-core:1.2.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="storm-core-1.2.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="NIOServerCnxn" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.storm:storm-core:1.2.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="storm-core-1.2.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="NIOServerCnxnFactory" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.storm:storm-core:1.2.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="storm-core-1.2.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="ZooKeeperServer" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.storm:storm-core:1.2.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="storm-core-1.2.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="trident" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.storm:storm-core:1.2.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="storm-core-1.2.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="trident" type="462c0819:PsiDirectoryNode" />
+              <item name="Stream" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.storm:storm-core:1.2.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="storm-core-1.2.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="planner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.storm:storm-core:1.2.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="storm-core-1.2.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="planner" type="462c0819:PsiDirectoryNode" />
+              <item name="SubtopologyBolt" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.storm:storm-core:1.2.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="storm-core-1.2.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="processor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.storm:storm-core:1.2.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="storm-core-1.2.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="processor" type="462c0819:PsiDirectoryNode" />
+              <item name="PartitionPersistProcessor" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.storm:storm-core:1.2.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="storm-core-1.2.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="tuple" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.storm:storm-core:1.2.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="storm-core-1.2.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="tuple" type="462c0819:PsiDirectoryNode" />
+              <item name="Fields" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.storm:storm-kafka:1.1.1" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.storm:storm-kafka:1.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="storm-kafka-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.storm:storm-kafka:1.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="storm-kafka-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
               <item name="kafka" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.apache.storm:storm-kafka:1.2.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="storm-kafka-1.2.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Gradle: org.apache.storm:storm-kafka:1.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="storm-kafka-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
               <item name="kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="DynamicBrokersReader" type="1a9f42e2:ClassTreeNode" />
+              <item name="StaticHosts" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.storm:storm-kafka:1.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="storm-kafka-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="ZkHosts" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.storm:storm-kafka:1.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="storm-kafka-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="trident" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.storm:storm-kafka:1.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="storm-kafka-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="trident" type="462c0819:PsiDirectoryNode" />
+              <item name="GlobalPartitionInformation" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.storm:storm-kafka:1.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="storm-kafka-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="trident" type="462c0819:PsiDirectoryNode" />
+              <item name="TridentKafkaConfig" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.storm:storm-kafka-client:1.1.1" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.storm:storm-kafka-client:1.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="storm-kafka-client-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.storm:storm-kafka-client:1.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="storm-kafka-client-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="spout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.storm:storm-kafka-client:1.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="storm-kafka-client-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="spout" type="462c0819:PsiDirectoryNode" />
+              <item name="KafkaSpoutConfig" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.storm:storm-kafka-client:1.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="storm-kafka-client-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="spout" type="462c0819:PsiDirectoryNode" />
+              <item name="KafkaSpoutConfig" type="1a9f42e2:ClassTreeNode" />
+              <item name="Builder" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.storm:storm-kafka-client:1.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="storm-kafka-client-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="trident" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cluster-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.apache.storm:storm-kafka-client:1.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="storm-kafka-client-1.1.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="trident" type="462c0819:PsiDirectoryNode" />
+              <item name="KafkaTridentSpoutOpaque" type="1a9f42e2:ClassTreeNode" />
             </path>
           </expand>
           <select />
@@ -1795,7 +2060,6 @@
       </pane>
       <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1805,7 +2069,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.5367647" />
-    <property name="settings.editor.selected.configurable" value="spring.boot" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/storm/apache-storm-1.2.1/examples/storm-kafka-examples" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -1881,6 +2145,25 @@
       <module name="cluster-analysis-topology_main~1" />
       <envs />
     </configuration>
+    <configuration name="ConsumerExampleTopology" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="topology.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="topology.ConsumerExampleTopology" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="cluster-analysis-topology_main~1" />
+      <envs />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -1927,31 +2210,6 @@
       <option name="MAIN_CLASS_NAME" value="kafka.KafkaUtilsTest" />
       <option name="METHOD_NAME" value="testKafka" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="SimulateServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="cluster-analysis-worker_test~1" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="service" />
-      <option name="MAIN_CLASS_NAME" value="service.SimulateServiceImplTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -2065,17 +2323,17 @@
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.BaseTest" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.KafkaUtilsTest.testKafka" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.SimulateServiceImplTest.testSend" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.SimulateServiceImplTest" />
-      <item index="5" class="java.lang.String" itemvalue="Application.ClusterAnalysisTopology" />
-      <item index="6" class="java.lang.String" itemvalue="Gradle.cluster-analysis [projectReport]" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ConsumerExampleTopology" />
+      <item index="5" class="java.lang.String" itemvalue="Gradle.cluster-analysis [projectReport]" />
+      <item index="6" class="java.lang.String" itemvalue="Application.ClusterAnalysisTopology" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.ClusterAnalysisTopology" />
         <item index="1" class="java.lang.String" itemvalue="JUnit.SimulateServiceImplTest.testSend" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.KafkaUtilsTest.testKafka" />
-        <item index="3" class="java.lang.String" itemvalue="Gradle.cluster-analysis [projectReport]" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.SimulateServiceImplTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ConsumerExampleTopology" />
+        <item index="4" class="java.lang.String" itemvalue="Gradle.cluster-analysis [projectReport]" />
       </list>
     </recent_temporary>
   </component>
@@ -2109,7 +2367,9 @@
       <workItem from="1526483968937" duration="4935000" />
       <workItem from="1526489928296" duration="41222000" />
       <workItem from="1526660684829" duration="6610000" />
-      <workItem from="1526667480578" duration="5002000" />
+      <workItem from="1526667480578" duration="6321000" />
+      <workItem from="1526739361124" duration="6253000" />
+      <workItem from="1526749343661" duration="31305000" />
     </task>
     <task id="LOCAL-00001" summary="clustering algorithm">
       <created>1525663401808</created>
@@ -2153,43 +2413,50 @@
       <option name="project" value="LOCAL" />
       <updated>1526575333005</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="consumer example">
+      <created>1526720263511</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1526720263511</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="KafkaUtilsTest_testKafka - 2018.05.19 at 02h 05m 29s.xml">
+    <history-entry file="KafkaUtilsTest_testKafka - 2018.05.20 at 01h 48m 54s.xml">
       <configuration name="KafkaUtilsTest.testKafka" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KafkaUtilsTest_testKafka - 2018.05.19 at 02h 06m 02s.xml">
+    <history-entry file="KafkaUtilsTest_testKafka - 2018.05.21 at 01h 06m 04s.xml">
       <configuration name="KafkaUtilsTest.testKafka" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KafkaUtilsTest_testKafka - 2018.05.19 at 02h 07m 28s.xml">
-      <configuration name="KafkaUtilsTest.testKafka" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="KafkaUtilsTest_testKafka - 2018.05.19 at 02h 15m 13s.xml">
-      <configuration name="KafkaUtilsTest.testKafka" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="KafkaUtilsTest_testKafka - 2018.05.19 at 02h 23m 41s.xml">
-      <configuration name="KafkaUtilsTest.testKafka" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="KafkaUtilsTest_testKafka - 2018.05.19 at 02h 55m 00s.xml">
-      <configuration name="KafkaUtilsTest.testKafka" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SimulateServiceImplTest_testSend - 2018.05.19 at 16h 04m 56s.xml">
+    <history-entry file="SimulateServiceImplTest_testSend - 2018.05.20 at 01h 49m 28s.xml">
       <configuration name="SimulateServiceImplTest.testSend" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TmProductDataDaoTest_testSelectId - 2018.05.18 at 14h 51m 01s.xml">
-      <configuration name="TmProductDataDaoTest.testSelectId" configurationId="JUnit" />
+    <history-entry file="SimulateServiceImplTest_testSend - 2018.05.20 at 01h 50m 11s.xml">
+      <configuration name="SimulateServiceImplTest.testSend" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TmProductDataDaoTest_testSelectId - 2018.05.18 at 14h 56m 02s.xml">
-      <configuration name="TmProductDataDaoTest.testSelectId" configurationId="JUnit" />
+    <history-entry file="SimulateServiceImplTest_testSend - 2018.05.20 at 02h 06m 46s.xml">
+      <configuration name="SimulateServiceImplTest.testSend" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TmProductDataDaoTest_testSelectId - 2018.05.18 at 14h 57m 14s.xml">
-      <configuration name="TmProductDataDaoTest.testSelectId" configurationId="JUnit" />
+    <history-entry file="SimulateServiceImplTest_testSend - 2018.05.20 at 02h 37m 01s.xml">
+      <configuration name="SimulateServiceImplTest.testSend" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimulateServiceImplTest_testSend - 2018.05.20 at 16h 04m 39s.xml">
+      <configuration name="SimulateServiceImplTest.testSend" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimulateServiceImplTest_testSend - 2018.05.20 at 16h 07m 09s.xml">
+      <configuration name="SimulateServiceImplTest.testSend" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimulateServiceImplTest_testSend - 2018.05.20 at 16h 07m 20s.xml">
+      <configuration name="SimulateServiceImplTest.testSend" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimulateServiceImplTest_testSend - 2018.05.21 at 01h 06m 46s.xml">
+      <configuration name="SimulateServiceImplTest.testSend" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106418000" />
+    <option name="totallyTimeSpent" value="145295000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2204,16 +2471,17 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1556551" sideWeight="0.5042965" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39081746" sideWeight="0.5042965" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3549832" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18474758" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41769317" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43784994" sideWeight="0.49570355" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37290034" sideWeight="0.4935553" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -2221,14 +2489,14 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46920493" sideWeight="0.49570355" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.49785176" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34042552" sideWeight="0.49570355" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26651737" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23791622" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24436091" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3180291" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20247047" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -2236,7 +2504,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7368421" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -2278,7 +2545,8 @@
     <MESSAGE value="引入storm包依赖" />
     <MESSAGE value="mybatis and datasource" />
     <MESSAGE value="kafka utils" />
-    <option name="LAST_COMMIT_MESSAGE" value="kafka utils" />
+    <MESSAGE value="consumer example" />
+    <option name="LAST_COMMIT_MESSAGE" value="consumer example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2288,12 +2556,6 @@
           <line>43</line>
           <properties />
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/cluster-analysis-worker/src/test/java/kafka/KafkaUtilsTest.java</url>
-          <line>108</line>
-          <properties />
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/cluster-analysis-worker/src/main/java/service/SimulateService.java</url>
@@ -2307,330 +2569,245 @@
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cluster-analysis-topology/src/main/java/topology/ClusterAnalysisTopology.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cluster-analysis-topology/src/main/java/topology/ConsumerExampleTopology.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cluster-analysis-common/src/main/java/cluster/Kmeans/ClusterModelUpdater.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="11" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="23" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cluster-analysis-worker/src/main/java/service/impl/Main.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.storm/storm-core/1.2.1/78f02ababb889e6fcf684e74b2e355276b32d27c/storm-core-1.2.1.jar!/org/apache/storm/shade/org/apache/zookeeper/server/NIOServerCnxnFactory.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluster-analysis-worker/src/main/java/kafka/MessageProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluster-analysis-common/src/main/java/core/InputDataType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluster-analysis-common/src/main/java/core/Instance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Properties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="117" column="20" lean-forward="true" selection-start-line="117" selection-start-column="20" selection-end-line="117" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluster-analysis-worker/src/test/java/dao/TmProductDataDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluster-analysis-common/src/main/java/cluster/Kmeans/ClusterModelQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="49" column="9" lean-forward="false" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluster-analysis-common/src/main/java/core/MathUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluster-analysis-common/src/main/java/cluster/Kmeans/Kmeans.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="56" column="43" lean-forward="true" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluster-analysis-common/src/main/java/cluster/Kmeans/Cluster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="43" column="31" lean-forward="false" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluster-analysis-topology/src/main/java/bolts.java" />
-    <entry file="file://$PROJECT_DIR$/cluster-analysis-worker/src/test/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="70" lean-forward="false" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluster-analysis-worker/src/main/java/dao/TmProductDataDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluster-analysis-worker/src/main/java/kafka/KafkaUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="29" column="90" lean-forward="false" selection-start-line="29" selection-start-column="75" selection-end-line="29" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluster-analysis-worker/src/main/java/model/TmProductDataModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluster-analysis-webapp/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluster-analysis-webapp/src/main/application.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.storm/storm-kafka/1.2.1/32b9144862df33c2cfab8629959bb511e8014c84/storm-kafka-1.2.1-sources.jar!/org/apache/storm/kafka/BrokerHosts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.storm/storm-kafka/1.2.1/32b9144862df33c2cfab8629959bb511e8014c84/storm-kafka-1.2.1-sources.jar!/org/apache/storm/kafka/StaticHosts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="31" column="56" lean-forward="false" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.storm/storm-kafka/1.2.1/32b9144862df33c2cfab8629959bb511e8014c84/storm-kafka-1.2.1-sources.jar!/org/apache/storm/kafka/trident/GlobalPartitionInformation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="38" column="78" lean-forward="true" selection-start-line="38" selection-start-column="78" selection-end-line="38" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.storm/storm-core/1.2.1/41d9a1c7cda5797701faa07221814299243509de/storm-core-1.2.1-sources.jar!/org/apache/storm/tuple/Fields.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1075">
-          <caret line="33" column="53" lean-forward="false" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.storm/storm-kafka/1.2.1/32b9144862df33c2cfab8629959bb511e8014c84/storm-kafka-1.2.1-sources.jar!/org/apache/storm/kafka/StringScheme.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="29" column="25" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.storm/storm-kafka/1.2.1/32b9144862df33c2cfab8629959bb511e8014c84/storm-kafka-1.2.1-sources.jar!/org/apache/storm/kafka/KafkaConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="46" column="34" lean-forward="false" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.storm/storm-kafka/1.2.1/32b9144862df33c2cfab8629959bb511e8014c84/storm-kafka-1.2.1-sources.jar!/org/apache/storm/kafka/StringKeyValueScheme.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="34" column="67" lean-forward="true" selection-start-line="34" selection-start-column="67" selection-end-line="34" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.storm/storm-core/1.2.1/41d9a1c7cda5797701faa07221814299243509de/storm-core-1.2.1-sources.jar!/org/apache/storm/spout/Scheme.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluster-analysis-topology/src/main/java/spouts/KafkaSpoutService.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.storm/storm-kafka/1.2.1/32b9144862df33c2cfab8629959bb511e8014c84/storm-kafka-1.2.1-sources.jar!/org/apache/storm/kafka/SpoutConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="59" column="21" lean-forward="false" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluster-analysis-topology/src/test/resources/application-test.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="53" column="36" lean-forward="false" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.storm/storm-kafka-client/1.2.1/9a56a0e571a2fbeff5443ef76150e6a10070c2e4/storm-kafka-client-1.2.1-sources.jar!/org/apache/storm/kafka/spout/KafkaSpoutConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="98" column="7" lean-forward="false" selection-start-line="98" selection-start-column="7" selection-end-line="98" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluster-analysis-worker/src/main/java/service/impl/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluster-analysis-topology/src/main/java/vo/TmProductDataVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluster-analysis-topology/src/main/java/bolts/QueryBolt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        <state relative-caret-position="268">
+          <caret line="125" column="0" lean-forward="false" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.storm/storm-core/1.2.1/78f02ababb889e6fcf684e74b2e355276b32d27c/storm-core-1.2.1.jar!/org/apache/storm/shade/org/apache/zookeeper/server/ZooKeeperServer.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="515" column="0" lean-forward="false" selection-start-line="515" selection-start-column="0" selection-end-line="515" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logs/workers-artifacts/kafkaTopicTopology-1-1526665658/1024/worker.yaml">
+    <entry file="file://$PROJECT_DIR$/logs/workers-artifacts/kafkaTopicTopology-1-1526752658/1027/worker.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/workers-artifacts/test-1-1526657094/1027/worker.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/logs/workers-artifacts/kafkaTopicTopology-1-1526662113/1024/worker.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluster-analysis-common/src/main/java/help/IHelp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state relative-caret-position="100">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.storm/storm-core/1.2.1/78f02ababb889e6fcf684e74b2e355276b32d27c/storm-core-1.2.1.jar!/compile-worker-launcher.sh">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="171">
+          <caret line="300" column="30" lean-forward="false" selection-start-line="300" selection-start-column="30" selection-end-line="300" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cluster-analysis-worker/build/reports/project/dependencies.txt">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2073">
-          <caret line="784" column="0" lean-forward="false" selection-start-line="784" selection-start-column="0" selection-end-line="784" selection-end-column="0" />
+        <state relative-caret-position="1546">
+          <caret line="382" column="0" lean-forward="true" selection-start-line="382" selection-start-column="0" selection-end-line="382" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cluster-analysis-worker/build/reports/project/properties.txt">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/jre/lib/rt.jar!/sun/misc/Unsafe.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1803">
-          <caret line="22" column="44" lean-forward="false" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+        <state relative-caret-position="151">
+          <caret line="353" column="23" lean-forward="false" selection-start-line="353" selection-start-column="23" selection-end-line="353" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/nio/channels/spi/AbstractInterruptibleChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="210" column="0" lean-forward="false" selection-start-line="210" selection-start-column="0" selection-end-line="210" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/nio/channels/spi/AbstractSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="230" column="0" lean-forward="false" selection-start-line="230" selection-start-column="0" selection-end-line="230" selection-end-column="0" />
+          <folding>
+            <element signature="e#7076#7077#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.storm/storm-core/1.2.1/41d9a1c7cda5797701faa07221814299243509de/storm-core-1.2.1-sources.jar!/org/apache/storm/trident/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="320" column="27" lean-forward="true" selection-start-line="320" selection-start-column="27" selection-end-line="320" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.storm/storm-kafka/1.1.1/7fc6de71052c68fceeb9abd908417b9873226afb/storm-kafka-1.1.1-sources.jar!/org/apache/storm/kafka/trident/TridentKafkaConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="32" column="11" lean-forward="false" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+          <folding>
+            <element signature="e#1245#1246#0" expanded="false" />
+            <element signature="e#1290#1291#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.storm/storm-kafka-client/1.1.1/3a555f48b83894cc24418900bbf2300dbb7705a7/storm-kafka-client-1.1.1-sources.jar!/org/apache/storm/kafka/spout/trident/KafkaTridentSpoutOpaque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="42" column="11" lean-forward="false" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.storm/storm-kafka/1.1.1/7fc6de71052c68fceeb9abd908417b9873226afb/storm-kafka-1.1.1-sources.jar!/org/apache/storm/kafka/BrokerHosts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.storm/storm-kafka/1.1.1/7fc6de71052c68fceeb9abd908417b9873226afb/storm-kafka-1.1.1-sources.jar!/org/apache/storm/kafka/StaticHosts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="30" column="39" lean-forward="false" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.storm/storm-kafka/1.1.1/7fc6de71052c68fceeb9abd908417b9873226afb/storm-kafka-1.1.1-sources.jar!/org/apache/storm/kafka/trident/GlobalPartitionInformation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.storm/storm-kafka-client/1.1.1/3a555f48b83894cc24418900bbf2300dbb7705a7/storm-kafka-client-1.1.1-sources.jar!/org/apache/storm/kafka/spout/KafkaSpoutConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="106" column="38" lean-forward="false" selection-start-line="106" selection-start-column="16" selection-end-line="106" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.storm/storm-core/1.2.1/78f02ababb889e6fcf684e74b2e355276b32d27c/storm-core-1.2.1.jar!/org/apache/storm/shade/org/apache/zookeeper/ClientCnxn.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1070">
+          <caret line="517" column="27" lean-forward="false" selection-start-line="517" selection-start-column="27" selection-end-line="517" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.storm/storm-kafka/1.1.1/7fc6de71052c68fceeb9abd908417b9873226afb/storm-kafka-1.1.1-sources.jar!/org/apache/storm/kafka/ZkHosts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="29" column="40" lean-forward="false" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="40" />
+          <folding>
+            <element signature="e#1275#1276#0" expanded="false" />
+            <element signature="e#1325#1326#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libraries.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="44" column="54" lean-forward="false" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="54" />
+        <state relative-caret-position="-950">
+          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.storm/storm-core/1.1.1/86febcd11bcd5ae544d901d52f525afc891ae11/storm-core-1.1.1.jar!/org/apache/storm/shade/org/apache/zookeeper/ClientCnxn.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="77" column="37" lean-forward="false" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
+        <state relative-caret-position="830">
+          <caret line="535" column="0" lean-forward="false" selection-start-line="535" selection-start-column="0" selection-end-line="535" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.storm/storm-kafka/1.2.1/32b9144862df33c2cfab8629959bb511e8014c84/storm-kafka-1.2.1-sources.jar!/org/apache/storm/kafka/DynamicBrokersReader.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.storm/storm-core/1.1.1/3e7df2cd7861494a0ac698b21e6399af403bccb6/storm-core-1.1.1-sources.jar!/org/apache/storm/trident/TridentTopology.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="125" column="44" lean-forward="false" selection-start-line="125" selection-start-column="44" selection-end-line="125" selection-end-column="44" />
+        <state relative-caret-position="531">
+          <caret line="167" column="32" lean-forward="false" selection-start-line="167" selection-start-column="32" selection-end-line="167" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cluster-analysis-worker/src/test/java/kafka/KafkaUtilsTest.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="149" column="11" lean-forward="false" selection-start-line="149" selection-start-column="11" selection-end-line="149" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.storm/storm-core/1.2.1/41d9a1c7cda5797701faa07221814299243509de/storm-core-1.2.1-sources.jar!/org/apache/storm/trident/planner/processor/PartitionPersistProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="97" column="12" lean-forward="false" selection-start-line="97" selection-start-column="12" selection-end-line="97" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.storm/storm-core/1.2.1/41d9a1c7cda5797701faa07221814299243509de/storm-core-1.2.1-sources.jar!/org/apache/storm/trident/planner/SubtopologyBolt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="150" column="12" lean-forward="false" selection-start-line="150" selection-start-column="12" selection-end-line="150" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster-analysis-topology/src/main/java/bolts/TopicMsgBolt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="16" column="51" lean-forward="false" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+          <caret line="12" column="47" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cluster-analysis-worker/src/main/java/service/SimulateService.java">
+    <entry file="file://$PROJECT_DIR$/cluster-analysis-topology/src/main/java/topology/ConsumerExampleTopology.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluster-analysis-worker/src/main/java/service/impl/SimulateServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="41" column="17" lean-forward="false" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        <state relative-caret-position="46">
+          <caret line="33" column="69" lean-forward="false" selection-start-line="33" selection-start-column="64" selection-end-line="33" selection-end-column="69" />
           <folding />
         </state>
       </provider>
@@ -2638,41 +2815,212 @@
     <entry file="file://$PROJECT_DIR$/cluster-analysis-worker/src/test/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
-          <caret line="43" column="35" lean-forward="false" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
+          <caret line="43" column="46" lean-forward="false" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cluster-analysis-worker/src/test/java/service/SimulateServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        <state relative-caret-position="250">
+          <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster-analysis-topology/src/main/java/topology/TridentTopology.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster-analysis-topology/src/main/java/bolts/TransMsgFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="32" column="51" lean-forward="false" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster-analysis-worker/src/test/java/kafka/KafkaUtilsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-800">
+          <caret line="16" column="62" lean-forward="false" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/jre/lib/rt.jar!/sun/nio/ch/WindowsSelectorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="453" column="27" lean-forward="false" selection-start-line="453" selection-start-column="27" selection-end-line="453" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.storm/storm-core/1.1.1/3e7df2cd7861494a0ac698b21e6399af403bccb6/storm-core-1.1.1-sources.jar!/org/apache/storm/trident/topology/TridentBoltExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="396" column="0" lean-forward="false" selection-start-line="396" selection-start-column="0" selection-end-line="396" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.storm/storm-core/1.1.1/3e7df2cd7861494a0ac698b21e6399af403bccb6/storm-core-1.1.1-sources.jar!/org/apache/storm/trident/planner/SubtopologyBolt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="152" column="0" lean-forward="false" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.storm/storm-core/1.1.1/86febcd11bcd5ae544d901d52f525afc891ae11/storm-core-1.1.1.jar!/org/apache/storm/daemon/executor$fn__5030$tuple_action_fn__5032.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="318" column="32" lean-forward="false" selection-start-line="318" selection-start-column="32" selection-end-line="318" selection-end-column="32" />
+          <folding>
+            <marker date="1526808223169" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1526808223169" expanded="false" signature="147:857" ph="..." />
+            <marker date="1526808223169" expanded="true" signature="3632:3933" ph="{...}" />
+            <marker date="1526808223169" expanded="true" signature="4065:4275" ph="{...}" />
+            <marker date="1526808223169" expanded="true" signature="4332:13516" ph="{...}" />
+            <marker date="1526808223169" expanded="true" signature="13573:13799" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.storm/storm-core/1.1.1/3e7df2cd7861494a0ac698b21e6399af403bccb6/storm-core-1.1.1-sources.jar!/org/apache/storm/trident/planner/processor/MapProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.storm/storm-core/1.1.1/3e7df2cd7861494a0ac698b21e6399af403bccb6/storm-core-1.1.1-sources.jar!/org/apache/storm/trident/planner/processor/PartitionPersistProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster-analysis-topology/src/main/java/vo/TmProductDataVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.storm/storm-core/1.1.1/3e7df2cd7861494a0ac698b21e6399af403bccb6/storm-core-1.1.1-sources.jar!/org/apache/storm/trident/operation/impl/MapFunctionExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding>
+            <element signature="e#2271#2272#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cluster-analysis-topology/src/main/java/topology/ClusterAnalysisTopology.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-452">
-          <caret line="36" column="41" lean-forward="false" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="41" />
+        <state relative-caret-position="233">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster-analysis-common/src/main/java/cluster/Kmeans/ClusterModelUpdater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cluster-analysis-topology/src/main/java/bolts/TopicMsgBolt.java">
+    <entry file="file://$PROJECT_DIR$/cluster-analysis-topology/src/main/java/bolts/TransInstanceFunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="272">
+          <caret line="64" column="9" lean-forward="true" selection-start-line="62" selection-start-column="8" selection-end-line="64" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.curator/curator-client/4.0.0/df06694be6921727208bef3788024e56cf69a99d/curator-client-4.0.0-sources.jar!/org/apache/curator/utils/CloseableUtils.java">
+    <entry file="file://$PROJECT_DIR$/cluster-analysis-common/src/main/java/cluster/Canopy/CanopyDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        <state relative-caret-position="-1343">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster-analysis-common/src/main/java/cluster/Kmeans/Cluster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster-analysis-common/src/main/java/cluster/Kmeans/Kmeans.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster-analysis-common/src/main/java/cluster/Canopy/Canopy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-143">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster-analysis-common/src/main/java/cluster/Canopy/CanopyModelUpdate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster-analysis-common/src/main/java/cluster/Kmeans/ClusterModelQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="37" column="33" lean-forward="false" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster-analysis-common/src/main/java/cluster/Birch/BirchCluster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster-analysis-common/src/main/java/cluster/Birch/NonLeafNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster-analysis-common/src/main/java/cluster/Birch/MinCluster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-93">
+          <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -2745,7 +3093,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>cluster-analysis-topology_test~1|cluster-analysis-topology</last-edited>
+          <last-edited>cluster-analysis</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

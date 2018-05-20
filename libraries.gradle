@@ -13,7 +13,8 @@ ext{
    kafkaClientsVersion      = '1.1.0'
    kafkaVersion             = '1.1.0'
 
-   stormVersion             = '1.2.1'
+   stormVersion             = '1.1.1'
+   stormKafkaVersion        = '1.1.1'
 
    fastJsonVersion          = '1.2.47'
 
@@ -43,8 +44,8 @@ ext{
            fastJson                : "com.alibaba:fastjson:${fastJsonVersion}",
 
            storm_core              : "org.apache.storm:storm-core:${stormVersion}",
-           storm_kafka             : "org.apache.storm:storm-kafka:${stormVersion}",
-           storm_kafka_client      : "org.apache.storm:storm-kafka-client:${stormVersion}",
+           storm_kafka             : "org.apache.storm:storm-kafka:${stormKafkaVersion}",
+           storm_kafka_client      : "org.apache.storm:storm-kafka-client:${stormKafkaVersion}",
 
            log4j_api               : "org.apache.logging.log4j:log4j-api:${log4jVersion}",
            log4j_core              : "org.apache.logging.log4j:log4j-core:${log4jVersion}",

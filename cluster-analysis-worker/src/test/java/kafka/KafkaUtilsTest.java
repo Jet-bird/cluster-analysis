@@ -14,7 +14,7 @@ import java.util.concurrent.ExecutionException;
 @EnableAutoConfiguration
 public class KafkaUtilsTest extends BaseTest {
 
-    private static final String TEST_TOPIC = "test0";
+    private static final String TEST_TOPIC = "cluster_analysis";
 
     @Test
     public void testKafka(){
@@ -24,7 +24,7 @@ public class KafkaUtilsTest extends BaseTest {
         try (AdminClient client = AdminClient.create(props)) {
             describeCluster(client);
             createTopics(client);
-            listAllTopics(client);
+//            listAllTopics(client);
 //            describeTopics(client);
 //            alterConfigs(client);
 //            describeConfig(client);
