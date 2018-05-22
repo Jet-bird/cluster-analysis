@@ -51,7 +51,7 @@ public class TransInstanceFunction implements MapFunction {
 
     protected double[] getFeatures(TmProductDataVO vo){
         double[] features = new double[3];
-        Function<Integer,Integer> ifNull = new Function() {
+        Function<Integer,Integer> ifNull = new Function(){
             @Override
             public Object apply(Object o) {
                 if(o == null){
@@ -60,12 +60,17 @@ public class TransInstanceFunction implements MapFunction {
                     return o;
             }
         };
-        if(vo.getCommentNum() == null){
-            return null;
+        try {
+            if(vo.getCommentNum().intValue() == 0){
+                vo.setCommentNum(1);
+            }
+        } catch (NullPointerException e) {
+            features[0] = 0;
+            features[1] = 0;
+            features[2] = 0;
+            return  features;
         }
-        if(vo.getCommentNum().intValue() == 0){
-            vo.setCommentNum(1);
-        }
+        //以好评率为指标
 //        double goodRate = ifNull.apply(vo.getGoodCommentNum())/vo.getCommentNum();
 //        double midRate = ifNull.apply(vo.getMidCommentNum())/vo.getCommentNum();
 //        double badRate = ifNull.apply(vo.getBadCommentNum())/vo.getCommentNum();
