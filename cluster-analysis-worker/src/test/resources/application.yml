@@ -24,7 +24,7 @@ spring:
         maxOpenPreparedStatements: 20
     kafka:
         producer:
-          bootstrap-servers: localhost:9092
+          bootstrap-servers: 120.25.91.38:9091,47.106.144.72:9091
 
 mybatis:
     type-aliases-package: model
@@ -40,5 +40,5 @@ pagehelper:
     params: count=countSql
 
 kafka:
-    host: localhost:9092
-    simulateServiceTopicName: cluster_analysis
+    host: 120.25.91.38:9091,47.106.144.72:9091
+    simulateServiceTopicName: cluster_analysis_test_0

@@ -31,7 +31,7 @@ public class ConsumerExampleTopology {
         // 配置Zookeeper地址
         BrokerHosts brokerHosts = new ZkHosts("localhost:2181");
         // 配置Kafka订阅的Topic，以及zookeeper中数据节点目录和名字
-        SpoutConfig spoutConfig = new SpoutConfig(brokerHosts, "test0", "", "topicMsgTopology");
+        SpoutConfig spoutConfig = new SpoutConfig(brokerHosts, "*sEN", "", "topicMsgTopology");
         // 配置KafkaBolt中的kafka.broker.properties
         Config conf = new Config();
         Properties props = new Properties();

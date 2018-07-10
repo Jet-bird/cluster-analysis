@@ -14,12 +14,13 @@ import java.util.concurrent.ExecutionException;
 @EnableAutoConfiguration
 public class KafkaUtilsTest extends BaseTest {
 
-    private static final String TEST_TOPIC = "cluster_analysis";
+    private static final String TEST_TOPIC = "cluster_analysis_test_0";
 
     @Test
     public void testKafka(){
         Properties props = new Properties();
-        props.put(AdminClientConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092");
+//        props.put(AdminClientConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092");
+        props.put(AdminClientConfig.BOOTSTRAP_SERVERS_CONFIG, "120.25.91.38:9091,47.106.144.72:9091");
 
         try (AdminClient client = AdminClient.create(props)) {
             describeCluster(client);
